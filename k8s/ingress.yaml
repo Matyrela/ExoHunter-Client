@@ -8,10 +8,23 @@ metadata:
     cert-manager.io/cluster-issuer: letsencrypt-http
 spec:
   tls:
-    - hosts: [ "app.exohunter.earth" ]
+    - hosts:
+        - exohunter.earth
+        - '*.exohunter.earth'
       secretName: exofront-tls
   rules:
-    - host: app.exohunter.earth
+    - host: '*.exohunter.earth'
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: exofront-svc
+                port:
+                  number: 80
+
+    - host: exohunter.earth
       http:
         paths:
           - path: /
