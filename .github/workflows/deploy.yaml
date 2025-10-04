@@ -46,7 +46,7 @@ jobs:
 
             echo "🚀 Applying manifests..."
             KUBECONFIG=/home/${USER}/.kube/config-exohunter kubectl -n exohunter apply \
-              -f k8s/front/deploy.yaml -f k8s/front/service.yaml -f k8s/front/ingress.yaml
+              -f k8s/deploy.yaml -f k8s/service.yaml -f k8s/ingress.yaml
 
             echo "♻️ Updating image..."
             KUBECONFIG=/home/${USER}/.kube/config-exohunter kubectl -n exohunter set image \
