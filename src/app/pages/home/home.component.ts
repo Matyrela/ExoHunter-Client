@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
@@ -21,4 +21,12 @@ import { MatTooltipModule } from '@angular/material/tooltip';
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
-export class HomeComponent {}
+export class HomeComponent {
+  scrollToLearn(): void {
+  const learnSection = document.querySelector('.learn');
+  if (learnSection) {
+    learnSection.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
+}

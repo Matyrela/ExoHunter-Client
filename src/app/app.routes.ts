@@ -17,5 +17,10 @@ export const routes: Routes = [
         path: 'explorer',
         loadComponent: () =>
             import('./pages/explorer/explorer.component').then((m) => m.ExplorerComponent),
-    }
+    },
+    {
+        path: 'learn-more',
+        loadComponent: () =>
+            import('./pages/learn-more/learn-more.component').then((m) => m.LearnMoreComponent),
+    },
 ];

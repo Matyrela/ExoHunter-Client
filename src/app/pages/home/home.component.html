@@ -1,0 +1,135 @@
+<section class="home">
+    <div class="home__bg-image"></div>
+    <div class="home__overlay"></div>
+
+    <div class="home__content">
+        <div class="eyebrow">
+            <mat-icon>auto_awesome</mat-icon>
+            NASA Space Apps 2025 · Montevideo
+        </div>
+
+        <h1 class="home__title">
+            ExoHunter
+            <span class="home__title-fade">Discover New Worlds</span>
+        </h1>
+
+        <p class="subtitle">
+            Explore NASA's KOI / K2 / TESS data. Train ML models. Identify new exoplanet candidates.
+        </p>
+
+        <div class="home__actions">
+            <div class="home__primary-action">
+                <a mat-flat-button color="primary" routerLink="/explorer" class="btn-emphasized">
+                    <mat-icon>travel_explore</mat-icon>
+                    Analyze New Data
+                </a>
+            </div>
+
+            <div class="home__secondary-actions">
+                <a mat-flat-button routerLink="/charts" class="btn-secondary">
+                    <mat-icon>show_chart</mat-icon>
+                    View Metrics
+                </a>
+
+                <a mat-flat-button href="/learn-more" class="btn-secondary">
+                    <mat-icon>menu_book</mat-icon>
+                    Learn More
+                </a>
+
+                <a mat-flat-button routerLink="/about" class="btn-secondary" matTooltip="Team & project details">
+                    <mat-icon>info</mat-icon>
+                    About
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator" (click)="scrollToLearn()">
+        <mat-icon>expand_more</mat-icon>
+    </div>
+
+</section>
+
+<section id="learn-more" class="learn">
+    <div class="learn__bg"></div>
+    <div class="learn__glow"></div>
+
+    <div class="learn__content">
+        <div class="learn__eyebrow">
+            <mat-icon>auto_awesome</mat-icon>
+            Discover the Science Behind ExoHunter
+        </div>
+
+        <h1 class="learn__title">
+            Everything You Need to Know
+            <span class="learn__title-fade">From Exoplanets to Machine Learning</span>
+        </h1>
+
+        <p class="learn__intro">
+            ExoHunter bridges astronomy and artificial intelligence — transforming how we identify worlds beyond our
+            Solar System.
+            This page will guide you through the essential concepts that make our mission possible.
+        </p>
+
+        <div class="learn__grid">
+            <mat-card class="info-card">
+                <mat-icon class="info-icon">language</mat-icon>
+                <h3>What Are Exoplanets?</h3>
+                <p>
+                    Exoplanets are planets that orbit stars beyond our Solar System.
+                    Thousands have been discovered using data from NASA’s missions like <strong>Kepler</strong>,
+                    <strong>K2</strong>, and <strong>TESS</strong>.
+                    Each detection brings us closer to understanding how common — or rare — Earth-like worlds are.
+                </p>
+            </mat-card>
+
+            <mat-card class="info-card">
+                <mat-icon class="info-icon">light_mode</mat-icon>
+                <h3>The Transit Method</h3>
+                <p>
+                    This is the most successful technique for detecting exoplanets.
+                    When a planet passes in front of its star, it slightly dims the star’s light.
+                    By studying these periodic dips, we can infer a planet’s <strong>size, orbit,</strong> and even
+                    atmospheric hints.
+                </p>
+            </mat-card>
+
+            <mat-card class="info-card">
+                <mat-icon class="info-icon">psychology</mat-icon>
+                <h3>How AI Helps</h3>
+                <p>
+                    Instead of manually analyzing thousands of light curves,
+                    we use <strong>machine learning</strong> models that automatically detect subtle patterns
+                    distinguishing exoplanets from false positives.
+                </p>
+            </mat-card>
+
+            <mat-card class="info-card">
+                <mat-icon class="info-icon">science</mat-icon>
+                <h3>The ExoHunter Model</h3>
+                <p>
+                    Our model uses data from NASA missions to train models such as
+                    <strong>LightGBM</strong> and <strong>1D Convolutional Neural Networks</strong>.
+                    These algorithms learn to recognize transit signals and classify new candidates with high accuracy.
+                </p>
+            </mat-card>
+
+            <mat-card class="info-card">
+                <mat-icon class="info-icon">rocket_launch</mat-icon>
+                <h3>Why It Matters</h3>
+                <p>
+                    Each detection helps astronomers prioritize telescope time,
+                    refine planetary catalogs, and expand humanity’s search for habitable worlds.
+                    With AI, we accelerate discovery — one data point at a time.
+                </p>
+            </mat-card>
+        </div>
+
+        <div class="learn__footer">
+            <h3>Want to see the data in action?</h3>
+            <a mat-flat-button color="primary" routerLink="/explorer" class="btn-primary">
+                <mat-icon>travel_explore</mat-icon>
+                Try the Data Explorer
+            </a>
+        </div>
+    </div>
+</section>
