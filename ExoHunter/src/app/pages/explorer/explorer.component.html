@@ -1,0 +1,64 @@
+<section class="explorer">
+    <div class="explorer__bg"></div>
+    <div class="explorer__glow"></div>
+
+    <div class="explorer__content">
+        <div class="explorer__eyebrow">
+            <mat-icon>upload_file</mat-icon>
+            ExoHunter Data Explorer
+        </div>
+
+        <h1 class="explorer__title">
+            Upload Your Dataset
+            <span class="explorer__title-fade">and Predict Exoplanets</span>
+        </h1>
+
+        <p class="explorer__subtitle">
+            Upload a CSV file containing your light curve or exoplanet candidate data.
+            The model will analyze it and return classification probabilities.
+        </p>
+
+        <mat-card class="explorer__card">
+            <h3><mat-icon>description</mat-icon> Select File</h3>
+
+            <div class="file-input">
+                <input type="file" id="fileUpload" (change)="onFileSelected($event)" accept=".csv" hidden />
+                <label for="fileUpload" class="btn-upload" mat-flat-button color="primary">
+                    <mat-icon>cloud_upload</mat-icon>
+                    Choose CSV File
+                </label>
+                <span *ngIf="fileName">{{ fileName }}</span>
+            </div>
+
+            <div *ngIf="filePreview" class="file-preview">
+                <h4>Preview</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th *ngFor="let header of filePreview.headers">{{ header }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let row of filePreview.rows">
+                            <td *ngFor="let cell of row">{{ cell }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="actions">
+                <button mat-flat-button color="primary" (click)="predict()" [disabled]="!selectedFile">
+                    <mat-icon>rocket_launch</mat-icon>
+                    Run Prediction
+                </button>
+            </div>
+
+            <mat-divider></mat-divider>
+
+            <div *ngIf="predictionResult" class="prediction-result">
+                <h4><mat-icon>analytics</mat-icon> Prediction Result</h4>
+                <p>{{ predictionResult }}</p>
+            </div>
+        </mat-card>
+    </div>
+</section>

@@ -1,16 +1,13 @@
 import { Component } from '@angular/core';
-import { MatCardModule } from '@angular/material/card';
-import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  standalone: true,
   selector: 'app-about',
-  imports: [MatCardModule, MatListModule, MatIconModule, MatDividerModule],
+  standalone: true,
+  imports: [MatIconModule, MatDividerModule, MatButtonModule],
   templateUrl: './about-us.component.html',
-  styleUrl: './about-us.component.scss'
+  styleUrl: './about-us.component.scss',
 })
-export class AboutComponent {
-    
-}
+export class AboutComponent {}

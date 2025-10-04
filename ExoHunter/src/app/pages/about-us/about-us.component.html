@@ -1,61 +1,65 @@
-<mat-card class="about">
-  <div class="about__header">
-    <img class="about__logo" src="assets/logo.png" alt="ExoHunter logo" />
-    <div class="about__titles">
-      <h1 class="about__title">ExoHunter</h1>
-      <p class="about__subtitle">A NASA Space Apps Challenge production</p>
-      <p class="about__caption">
-        For the Challenge:
-        <strong>A World Away: Hunting for Exoplanets with AI</strong>
+<section class="about">
+  <div class="about__bg"></div>
+  <div class="about__glow"></div>
+
+  <nav class="about__navbar" style="position: absolute; top: 24px; right: 32px; z-index: 10;">
+    <a mat-flat-button routerLink="/home" color="primary" class="btn-outline">
+      <mat-icon>home</mat-icon>
+      Back to Home
+    </a>
+  </nav>
+
+  <div class="about__content">
+    <div class="about__eyebrow">
+      <mat-icon>auto_awesome</mat-icon>
+      NASA Space Apps 2025 · Montevideo
+    </div>
+
+    <h1 class="about__title">
+      ExoHunter
+      <span class="about__title-fade">Hunting for Exoplanets with AI</span>
+    </h1>
+
+    <p class="about__subtitle">
+      A next-generation project that combines open NASA data, deep learning and curiosity to discover new worlds beyond our solar system.
+    </p>
+
+    <mat-divider></mat-divider>
+
+    <div class="about__section">
+      <h3><mat-icon>public</mat-icon> Challenge</h3>
+      <p>
+        Developed for the NASA Space Apps Challenge:
+        <strong>“A World Away – Hunting for Exoplanets with AI”</strong>.
       </p>
-      <div class="about__chips">
-        <span class="chip">Kepler · K2 · TESS</span>
-        <span class="chip chip--brand">Team Gualter</span>
-      </div>
+      <p>
+        ExoHunter uses datasets from Kepler, K2 and TESS missions to train
+        machine learning models capable of identifying planetary candidates
+        based on the transit method — analyzing variations in stellar light.
+      </p>
+      <br>
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <div class="about__section">
+      <h3>Created by: Team Gualter</h3>
+      <ul class="about__list">
+        <li>Renzo Giacometti</li>
+        <li>Gonzalo Juárez</li>
+        <li>Francisco Nasso</li>
+        <li>Florencia Roldós</li>
+        <li>León Salvo</li>
+        <li>Matías Varela</li>
+        <li></li>
+      </ul>
+    </div>
+
+    <div class="about__footer">
+      <p>
+        <mat-icon>rocket_launch</mat-icon>
+        Powered by curiosity, data and collaboration.
+      </p>
     </div>
   </div>
-
-  <mat-divider class="my-6"></mat-divider>
-
-  <section>
-    <h2 class="section-title">Team Members</h2>
-    <mat-nav-list class="about__list">
-      <a mat-list-item>
-        <mat-icon matListItemIcon>person</mat-icon>
-        <span matListItemTitle>Renzo Giacometti</span>
-      </a>
-      <a mat-list-item>
-        <mat-icon matListItemIcon>person</mat-icon>
-        <span matListItemTitle>Gonzalo Juárez</span>
-      </a>
-      <a mat-list-item>
-        <mat-icon matListItemIcon>person</mat-icon>
-        <span matListItemTitle>Francisco Nasso</span>
-      </a>
-      <a mat-list-item>
-        <mat-icon matListItemIcon>person</mat-icon>
-        <span matListItemTitle>Florencia Roldós</span>
-      </a>
-      <a mat-list-item>
-        <mat-icon matListItemIcon>person</mat-icon>
-        <span matListItemTitle>León Salvo</span>
-      </a>
-      <a mat-list-item>
-        <mat-icon matListItemIcon>person</mat-icon>
-        <span matListItemTitle>Matías Varela</span>
-      </a>
-    </mat-nav-list>
-  </section>
-
-  <section class="mt-6">
-    <h2 class="section-title">About the project</h2>
-    <p class="muted">
-        ExoHunter is a web application that allows users to explore and analyze
-        light curve data from NASA's Kepler, K2, and TESS missions. The app
-        leverages machine learning algorithms to identify potential exoplanet
-        candidates, making it easier for both amateur and professional
-        astronomers to contribute to the search for worlds beyond our solar
-        system.
-    </p>
-  </section>
-</mat-card>
+</section>
