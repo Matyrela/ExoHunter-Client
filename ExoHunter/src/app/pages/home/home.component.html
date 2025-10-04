@@ -18,20 +18,24 @@
         </p>
 
         <div class="home__actions">
-            <a mat-flat-button color="primary" routerLink="/explorer" class="btn-secondary">
-                <mat-icon>travel_explore</mat-icon>
-                Analyze New Data
-            </a>
+            <div class="home__primary-action">
+                <a mat-flat-button color="primary" routerLink="/explorer" class="btn-emphasized">
+                    <mat-icon>travel_explore</mat-icon>
+                    Analyze New Data
+                </a>
+            </div>
 
-            <a mat-flat-button routerLink="/charts" class="btn-primary">
-                <mat-icon>show_chart</mat-icon>
-                View Metrics
-            </a>
+            <div class="home__secondary-actions">
+                <a mat-stroked-button routerLink="/charts" class="btn-outline">
+                    <mat-icon>show_chart</mat-icon>
+                    View Metrics
+                </a>
 
-            <a mat-flat-button routerLink="/about" class="btn-primary" matTooltip="Team & project details">
-                <mat-icon>info</mat-icon>
-                About
-            </a>
+                <a mat-stroked-button routerLink="/about" class="btn-outline" matTooltip="Team & project details">
+                    <mat-icon>info</mat-icon>
+                    About
+                </a>
+            </div>
         </div>
     </div>
 </section>

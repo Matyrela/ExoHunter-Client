@@ -60,7 +60,6 @@
   margin-bottom: 1.5rem;
 }
 
-/* === TITULOS === */
 .about__title {
   font-family: "Orbitron", sans-serif;
   font-size: clamp(2rem, 5vw, 3.2rem);
@@ -94,7 +93,6 @@
   }
 }
 
-/* === SUBTITULO === */
 .about__subtitle {
   font-size: 1.1rem;
   color: #c3cbff;
@@ -103,7 +101,6 @@
   line-height: 1.6;
 }
 
-/* === SECCIONES === */
 .about__section h3 {
   display: flex;
   justify-content: center;
@@ -123,7 +120,6 @@
   line-height: 1.6;
 }
 
-/* === TEAM === */
 .about__list {
   list-style: none;
   margin: 1.2rem 0 0;
@@ -143,7 +139,6 @@
   letter-spacing: 0.4px;
 }
 
-/* === FOOTER === */
 .about__footer {
   margin-top: 2.5rem;
   display: flex;
@@ -159,7 +154,6 @@
   letter-spacing: 0.5px;
 }
 
-/* === BOTON === */
 .btn-outline {
   background: transparent;
   border: 1px solid #9a80ff;
@@ -179,7 +173,6 @@
   color: #ffffff;
 }
 
-/* === ANIMACIONES === */
 @keyframes fadeIn {
   from {
     opacity: 0;
