@@ -27,24 +27,24 @@
                     <mat-icon>cloud_upload</mat-icon>
                     Choose CSV File
                 </label>
-                <span *ngIf="fileName">{{ fileName }}</span>
+                @if (fileName) {
+                    <span>{{ fileName }}</span>
+                }
             </div>
 
-            <div *ngIf="filePreview" class="file-preview">
+            @if (filePreview) {
+            <div class="file-preview">
                 <h4>Preview</h4>
                 <table>
-                    <thead>
-                        <tr>
-                            <th *ngFor="let header of filePreview.headers">{{ header }}</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr *ngFor="let row of filePreview.rows">
-                            <td *ngFor="let cell of row">{{ cell }}</td>
-                        </tr>
-                    </tbody>
+                    <tr>
+                        <th *ngFor="let header of filePreview.headers">{{ header }}</th>
+                    </tr>
+                    <tr *ngFor="let row of filePreview.rows">
+                        <td *ngFor="let cell of row">{{ cell }}</td>
+                    </tr>
                 </table>
             </div>
+            }
 
             <div class="actions">
                 <button mat-flat-button color="primary" (click)="predict()" [disabled]="!selectedFile">
@@ -55,10 +55,12 @@
 
             <mat-divider></mat-divider>
 
-            <div *ngIf="predictionResult" class="prediction-result">
+            @if (predictionResult) {
+            <div class="prediction-result">
                 <h4><mat-icon>analytics</mat-icon> Prediction Result</h4>
                 <p>{{ predictionResult }}</p>
             </div>
+            }
         </mat-card>
     </div>
 </section>
