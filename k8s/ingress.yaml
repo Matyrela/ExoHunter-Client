@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: exofront-ingress
+  namespace: exohunter
+  annotations:
+    kubernetes.io/ingress.class: traefik
+    cert-manager.io/cluster-issuer: letsencrypt-http
+    traefik.ingress.kubernetes.io/router.priority: "10"
+    traefik.ingress.kubernetes.io/router.middlewares: exohunter-https-redirect@kubernetescrd
+
+spec:
+  tls:
+    - hosts: [ "exohunter.earth" ]
+      secretName: exofront-tls
+  rules:
+    - host: exohunter.earth
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: exofront-svc
+                port:
+                  number: 80
