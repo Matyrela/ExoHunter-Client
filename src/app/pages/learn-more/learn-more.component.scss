@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Rajdhani:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-/* ========== GLOBAL BASE ========== */
 body {
     font-family: 'Rajdhani', sans-serif;
     background-color: #0b0f1e;
@@ -10,7 +10,6 @@ body {
     overflow-x: hidden;
 }
 
-/* ================= HOME ================= */
 .home {
     position: relative;
     height: 100vh;
@@ -52,7 +51,6 @@ body {
     animation: fadeIn 1.4s ease;
 }
 
-/* Eyebrow */
 .eyebrow {
     display: inline-flex;
     gap: 0.5rem;
@@ -68,7 +66,6 @@ body {
     margin-bottom: 1rem;
 }
 
-/* Title */
 .home__title {
     font-family: 'Orbitron', sans-serif;
     font-weight: 800;
@@ -110,7 +107,6 @@ body {
     }
 }
 
-/* Subtitle */
 .subtitle {
     max-width: 700px;
     margin: 1.5rem auto;
@@ -120,7 +116,6 @@ body {
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
-/* Actions */
 .home__actions {
     margin-top: 2rem;
     display: flex;
@@ -177,7 +172,6 @@ body {
     color: #fff;
 }
 
-/* Fade Animation */
 @keyframes fadeIn {
     from {
         opacity: 0;

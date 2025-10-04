@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Rajdhani:wght@400;600&display=swap');
 
+
 html,
 body {
     margin: 0;
@@ -22,8 +23,8 @@ section {
     z-index: 0;
 }
 
-/* ===== HOME ===== */
 .home {
+    font-family: 'Rajdhani', sans-serif;
     position: relative;
     height: 100vh;
     min-height: 100dvh;
@@ -154,22 +155,17 @@ section {
     flex-wrap: wrap;
 }
 
-.btn-secondary {
-    border: 1px solid rgba(147, 121, 255, 0.4);
-    background: rgba(18, 23, 53, 0.5);
-    color: #e8edff;
-    padding: 0.7rem 1.4rem;
-    border-radius: 8px;
-    font-weight: 600;
-    letter-spacing: 0.6px;
-    transition: all 0.25s ease;
-    font-size: 0.95rem;
+.btn-secondary:hover {
+    transform: scale(1.05);
+    background: rgba(147, 79, 207, 0.522);
+    border-color: #5aa6ff;
+    color: #fff !important;
+    box-shadow: 0 0 25px rgba(90, 166, 255, 0.45);
 }
 
-.btn-secondary:hover {
-    background: rgba(124, 92, 255, 0.15);
-    border-color: #5aa6ff;
-    color: #fff;
+.btn-secondary mat-icon {
+    font-size: 15px;
+    transform: translateY(1px);
 }
 
 .scroll-indicator {
@@ -342,7 +338,7 @@ section {
     transition: all 0.3s ease;
 }
 
-h3{
+h3 {
     color: #fff;
     margin-bottom: 0.5rem;
 }
