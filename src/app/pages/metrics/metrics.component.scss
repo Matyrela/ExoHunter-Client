@@ -52,12 +52,13 @@
     display: block;
     font-size: 1.4rem;
     font-weight: 700;
-    background: linear-gradient(90deg, #a58aff, #5aa6ff, #2cd4ff);
+    background: linear-gradient(90deg, #7d66c9, #5aa6ff, #2cd4ff);
     background-size: 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: fade-glow 5s ease-in-out infinite alternate;
     margin-top: 1rem;
+    text-shadow: 0 0 15px rgba(90, 166, 255, 0.3);
 }
 
 .metrics__intro {
@@ -68,7 +69,6 @@
     line-height: 1.6;
 }
 
-/* ==== PIPELINE CARDS ==== */
 .pipeline {
     display: flex;
     justify-content: center;
@@ -95,9 +95,9 @@
 }
 
 .pipeline__icon {
-    font-size: 32px;
-    color: #9a80ff;
-    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: #ab9aef;
+    margin-bottom: 0.1rem;
 }
 
 .pipeline__card h4 {
@@ -113,7 +113,6 @@
     line-height: 1.4;
 }
 
-/* ==== METRICS SECTION ==== */
 .metrics__section {
     margin-top: 3rem;
     text-align: center;
@@ -138,7 +137,6 @@
     }
 }
 
-/* ==== GRAPHS ==== */
 .metrics__images {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -166,7 +164,6 @@
     color: #c3cbff;
 }
 
-/* ==== FOOTER BUTTONS ==== */
 .metrics__footer {
     display: flex;
     justify-content: center;
@@ -182,6 +179,7 @@
     font-weight: 600;
     text-transform: uppercase;
     transition: all 0.3s ease;
+    padding: 0.5rem;
 }
 
 .btn-primary:hover {
@@ -205,7 +203,6 @@
     box-shadow: 0 0 20px rgba(90, 166, 255, 0.4);
 }
 
-/* ==== ANIMATIONS ==== */
 @keyframes fade-glow {
     0% {
         background-position: 0% 50%;
