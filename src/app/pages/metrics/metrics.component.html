@@ -91,23 +91,35 @@
             </div>
 
 
-            <!-- CONFUSION MATRIX -->
-            <div class="metrics__matrix">
-                <mat-card class="graph-card">
-                    <img src="/matriz.jpg" alt="Confusion Matrix" />
-                    <p>Confusion Matrix (threshold = 0.5)</p>
-                </mat-card>
-            </div>
+            <!-- PERFORMANCE CHARTS -->
+            <div class="metrics__charts">
+                <div class="chart-container">
+                    <mat-card class="graph-card">
+                        <img src="/matriz.jpg" alt="Confusion Matrix" />
+                        <h4>Confusion Matrix</h4>
+                        <p class="chart-description">
+                            The confusion matrix shows classifier performance with a 0.5 threshold. 
+                            The <strong>712 true negatives</strong> and <strong>1307 true positives</strong> 
+                            demonstrate high precision, while the <strong>65 false positives</strong> and 
+                            <strong>54 false negatives</strong> represent model errors. 
+                            This distribution indicates excellent balance between sensitivity and specificity.
+                        </p>
+                    </mat-card>
+                </div>
 
-
-            <!-- ADDITIONAL GRAPHS -->
-            <div class="metrics__images">
-                <mat-card class="graph-card">
-                    <img src="/training_report.roc.png" alt="ROC Curve" />
-                    <p>ROC Curve Comparison</p>
-                </mat-card>
-
-
+                <div class="chart-container">
+                    <mat-card class="graph-card">
+                        <img src="/training_report.roc.png" alt="ROC Curve" />
+                        <h4>ROC Curve Analysis</h4>
+                        <p class="chart-description">
+                            The ROC (Receiver Operating Characteristic) curve evaluates classifier performance 
+                            across different thresholds. The <strong>AUC of 0.951</strong> indicates 
+                            exceptional ability to distinguish between exoplanets and non-exoplanets. 
+                            The curve approaches very close to the ideal point (0,1), showing high sensitivity 
+                            with low false positive rate.
+                        </p>
+                    </mat-card>
+                </div>
             </div>
         </div>
 

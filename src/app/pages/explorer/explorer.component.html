@@ -41,15 +41,27 @@
                 </div>
             </div>
 
-            <div class="file-input">
+            <div class="file-input"
+                 [class.drag-over]="isDragOver"
+                 (dragover)="onDragOver($event)"
+                 (dragleave)="onDragLeave($event)"
+                 (drop)="onDrop($event)">
                 <input type="file" id="fileUpload" (change)="onFileSelected($event)" accept=".csv" hidden />
-                <label for="fileUpload" class="btn-upload" mat-flat-button color="primary">
-                    <mat-icon class="mat-icon-y">cloud_upload</mat-icon>
-                    Choose CSV File
-                </label>
-                @if (fileName) {
-                    <span>{{ fileName }}</span>
-                }
+                <div class="upload-area">
+                    <label for="fileUpload" class="btn-upload" mat-flat-button color="primary">
+                        <mat-icon class="mat-icon-y">cloud_upload</mat-icon>
+                        Choose CSV File
+                    </label>
+                    <div class="drag-text">
+                        <span>or drag and drop your CSV file here</span>
+                    </div>
+                    @if (fileName) {
+                        <div class="selected-file">
+                            <mat-icon>description</mat-icon>
+                            <span>{{ fileName }}</span>
+                        </div>
+                    }
+                </div>
             </div>
 
             @if (filePreview) {

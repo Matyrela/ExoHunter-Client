@@ -208,11 +208,31 @@
     background: rgba(124, 92, 255, 0.05);
     transition: all 0.3s ease;
     position: relative;
+    cursor: pointer;
 
     &:hover {
         border-color: rgba(148, 163, 209, 0.5);
         background: rgba(124, 92, 255, 0.1);
         transform: translateY(-2px);
+    }
+
+    &.drag-over {
+        border-color: rgba(90, 166, 255, 0.7);
+        background: rgba(90, 166, 255, 0.15);
+        transform: scale(1.02);
+        box-shadow: 0 0 25px rgba(90, 166, 255, 0.3);
+
+        .upload-area {
+            .drag-text {
+                color: #5aa6ff;
+                font-weight: 600;
+
+                mat-icon {
+                    color: #5aa6ff;
+                    animation: bounce 0.6s ease-in-out infinite alternate;
+                }
+            }
+        }
     }
 
     &::before {
@@ -226,9 +246,66 @@
         transition: opacity 0.3s ease;
     }
 
-    &:hover::before {
+    &:hover::before,
+    &.drag-over::before {
         opacity: 1;
     }
+}
+
+.upload-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.drag-text {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #94a3d1;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+
+    mat-icon {
+        font-size: 1.1rem;
+        color: #7c5cff;
+        transition: all 0.3s ease;
+    }
+
+    span {
+        font-style: italic;
+    }
+}
+
+.selected-file {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #5aa6ff;
+    font-weight: 600;
+    padding: 0.75rem 1.25rem;
+    background: rgba(90, 166, 255, 0.1);
+    border-radius: 8px;
+    border: 1px solid rgba(90, 166, 255, 0.3);
+    animation: fadeIn 0.3s ease;
+
+    mat-icon {
+        color: #5aa6ff;
+        font-size: 1.1rem;
+    }
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-3px); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 .btn-upload {
@@ -253,23 +330,7 @@
     }
 }
 
-.file-input span {
-    color: #c3cbff;
-    font-weight: 500;
-    font-size: 1rem;
-    padding: 0.75rem 1.25rem;
-    background: rgba(15, 22, 48, 0.8);
-    border-radius: 8px;
-    border: 1px solid rgba(148, 163, 209, 0.2);
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-
-    &::before {
-        content: '📄';
-        font-size: 1.1rem;
-    }
-}
+/* Removed old .file-input span styles - now using .selected-file class */
 
 .file-preview {
     margin-top: 2rem;

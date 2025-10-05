@@ -59,11 +59,46 @@ export class ExplorerComponent {
 
   uploadService = inject(UploadService);
 
+  // Drag & Drop properties
+  isDragOver = false;
+
   onFileSelected(event: any) {
     this.selectedFile = event.target.files[0];
     if (this.selectedFile) {
       this.fileName = this.selectedFile.name;
       this.previewFile(this.selectedFile);
+    }
+  }
+
+  // Drag & Drop methods
+  onDragOver(event: DragEvent) {
+    event.preventDefault();
+    event.stopPropagation();
+    this.isDragOver = true;
+  }
+
+  onDragLeave(event: DragEvent) {
+    event.preventDefault();
+    event.stopPropagation();
+    this.isDragOver = false;
+  }
+
+  onDrop(event: DragEvent) {
+    event.preventDefault();
+    event.stopPropagation();
+    this.isDragOver = false;
+
+    const files = event.dataTransfer?.files;
+    if (files && files.length > 0) {
+      const file = files[0];
+      if (file.type === 'text/csv' || file.name.endsWith('.csv')) {
+        this.selectedFile = file;
+        this.fileName = file.name;
+        this.previewFile(file);
+      } else {
+        // Could add error handling here for invalid file types
+        console.warn('Please select a CSV file');
+      }
     }
   }
 
