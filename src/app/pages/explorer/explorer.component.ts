@@ -4,16 +4,33 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatSliderModule } from '@angular/material/slider';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 import { UploadService } from '../../services/upload.service';
 import { lastValueFrom } from 'rxjs';
 
 @Component({
   selector: 'app-explorer',
   standalone: true,
-  imports: [MatCardModule, MatIconModule, MatButtonModule, MatDividerModule, MatProgressSpinnerModule, ScrollingModule, CommonModule, RouterModule],
+    imports: [
+    CommonModule,
+    MatCardModule,
+    MatIconModule,
+    MatButtonModule,
+    MatDividerModule,
+    MatProgressSpinnerModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSliderModule,
+    ScrollingModule,
+    RouterModule,
+    FormsModule
+  ],
   templateUrl: './explorer.component.html',
   styleUrls: ['./explorer.component.scss']
 })
@@ -30,6 +47,13 @@ export class ExplorerComponent {
   loading = false;
   uploadSuccess = false;
   showData = false;
+  serverError = false;
+
+  // Search and filter properties
+  searchTerm = '';
+  filteredData: any[] = [];
+  predictionThreshold = 50;
+  displayData: any[] = [];
 
   // Sorting properties
   sortColumn = 'probability';
@@ -59,6 +83,7 @@ export class ExplorerComponent {
       this.uploadSuccess = false;
       this.predictionResult = null;
       this.showData = false;
+      this.serverError = false;
 
       const response = await lastValueFrom(this.uploadService.uploadCsv(this.selectedFile!));
 
@@ -134,16 +159,24 @@ export class ExplorerComponent {
   }
 
   private processData(data: any[]): any[] {
-    return data.map(item => {
+    const processed = data.map(item => {
       const { column_id, ...processedItem } = item;
 
       if (processedItem.probability !== undefined) {
         const probabilityValue = parseFloat(processedItem.probability);
         processedItem.probability = isNaN(probabilityValue) ? '0.00000%' : (probabilityValue * 100).toFixed(5) + '%';
+        // Ignorar prediction del backend y calcular basado en threshold
+        processedItem.prediction = probabilityValue * 100 > this.predictionThreshold ? 1 : 0;
       }
 
       return processedItem;
     });
+
+    // Inicializar datos filtrados
+    this.filteredData = [...processed];
+    this.displayData = [...processed];
+
+    return processed;
   }
 
   private handlePredictionError(error: any): void {
@@ -151,8 +184,17 @@ export class ExplorerComponent {
     this.uploadSuccess = false;
     this.predictionResult = null;
     this.showData = false;
+
     console.error('Error during prediction:', error);
-    this.predictionResult = 'Prediction failed. Please try again.';
+
+    // Check if it's a 500 server error
+    if (error.status === 500) {
+      this.serverError = true;
+      this.predictionResult = 'Server error occurred while processing your request.';
+    } else {
+      this.serverError = false;
+      this.predictionResult = 'Prediction failed. Please try again.';
+    }
   }
 
   toggleDataView() {
@@ -193,7 +235,8 @@ export class ExplorerComponent {
   }
 
   applySorting(): void {
-    this.backendData = [...this.originalData].sort((a, b) => {
+    // Actualizar filteredData (datos base sin filtro de búsqueda)
+    this.filteredData = [...this.originalData].sort((a, b) => {
       let valueA = a[this.sortColumn];
       let valueB = b[this.sortColumn];
 
@@ -226,6 +269,16 @@ export class ExplorerComponent {
 
       return this.sortDirection === 'desc' ? -comparison : comparison;
     });
+
+    // Mantener backendData para compatibilidad
+    this.backendData = [...this.filteredData];
+
+    // Actualizar displayData si hay búsqueda activa
+    if (this.searchTerm.trim()) {
+      this.onSearch();
+    } else {
+      this.displayData = [...this.filteredData];
+    }
   }
 
   getSortIcon(): string {
@@ -257,5 +310,79 @@ export class ExplorerComponent {
   formatColumnName(key: string): string {
     const formatted = key.replace('_', ' ');
     return formatted.charAt(0).toUpperCase() + formatted.slice(1);
+  }
+
+  onSearch(): void {
+    if (!this.searchTerm.trim()) {
+      this.displayData = [...this.filteredData];
+      return;
+    }
+
+    const searchLower = this.searchTerm.toLowerCase().trim();
+    this.displayData = this.filteredData.filter(item => {
+      return Object.values(item).some(value => {
+        if (value === null || value === undefined || typeof value === 'object') {
+          return false;
+        }
+        // Solo procesar tipos primitivos
+        if (typeof value === 'string' || typeof value === 'number' || typeof value === 'boolean') {
+          return value.toString().toLowerCase().includes(searchLower);
+        }
+        return false;
+      });
+    });
+  }
+
+  onThresholdChange(value: number): void {
+    this.predictionThreshold = value;
+    this.updatePredictions();
+  }
+
+  private updatePredictions(): void {
+    // Actualizar predictions basado en el nuevo threshold
+    this.originalData.forEach(item => {
+      if (item.probability !== undefined) {
+        const probabilityValue = parseFloat(item.probability.replace('%', ''));
+        item.prediction = probabilityValue > this.predictionThreshold ? 1 : 0;
+      }
+    });
+
+    this.filteredData = [...this.originalData];
+    this.applySorting();
+    this.onSearch(); // Aplicar filtro de búsqueda si existe
+  }
+
+  getPredictionIcon(prediction: number): string {
+    return prediction === 1 ? '✓' : '✗';
+  }
+
+  formatSliderLabel(value: number): string {
+    return `${value}%`;
+  }
+
+  getProbabilityClass(probabilityValue: string): string {
+    const numValue = this.getNumericValue(probabilityValue);
+    const threshold = this.predictionThreshold;
+
+    if (numValue >= threshold) {
+      return 'high-probability';
+    } else if (numValue >= threshold - 10) {
+      return 'medium-probability';
+    } else {
+      return 'low-probability';
+    }
+  }
+
+  downloadExample(filename: string): void {
+    // Crear enlace temporal para descarga
+    const link = document.createElement('a');
+    link.href = `/${filename}`;
+    link.download = filename;
+    link.target = '_blank';
+
+    // Agregar al DOM, hacer clic y remover
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }
 }
