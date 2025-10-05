@@ -16,7 +16,6 @@ body {
 }
 
 section {
-    width: 100vw;
     min-height: 100vh;
     box-sizing: border-box;
     position: relative;
@@ -33,9 +32,16 @@ section {
     align-items: center;
     justify-content: center;
     text-align: center;
+    z-index: 1;
 }
 
 .home__bg-image {
+    position: absolute;
+    inset: 0;
+    z-index: -3;
+}
+
+.background-image {
     position: absolute;
     inset: 0;
     background-image: url('/background.jpg');
@@ -43,23 +49,30 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     filter: brightness(0.55) saturate(1.2);
-    z-index: 0;
+    z-index: -3;
 }
 
-.home__overlay {
+.background-overlay {
     position: absolute;
     inset: 0;
     background: linear-gradient(to top,
-            rgba(11, 15, 30, 0.95) 5%,
-            rgba(11, 15, 30, 0.85) 40%,
-            rgba(11, 15, 30, 0.6) 70%,
-            rgba(11, 15, 30, 0.4) 100%);
+            rgba(11, 15, 30, 0.7) 5%,
+            rgba(11, 15, 30, 0.5) 40%,
+            rgba(11, 15, 30, 0.3) 70%,
+            rgba(11, 15, 30, 0.1) 100%);
+    z-index: -2;
+    pointer-events: none;
+}
+
+app-space-background {
+    position: absolute;
+    inset: 0;
     z-index: 1;
 }
 
 .home__content {
     position: relative;
-    z-index: 2;
+    z-index: 10;
     padding: 2rem 1rem;
     max-width: 900px;
     animation: fadeIn 1.4s ease;
@@ -182,6 +195,20 @@ section {
     z-index: 10;
     opacity: 0.85;
     transition: opacity 0.3s ease, transform 0.3s ease;
+    background-color: #222840;
+    padding: 0.5rem;
+    border-radius: 999px;
+    border: 1px solid rgba(148, 163, 209, 0.18);
+    backdrop-filter: blur(10px);
+
+    &:hover {
+        animation: none;
+    }
+
+    mat-icon {
+        transform: translate(-3px, -1px);
+    }
+
 }
 
 .scroll-indicator mat-icon {
@@ -222,7 +249,6 @@ section {
 .learn {
     position: relative;
     min-height: 100vh;
-    width: 100vw;
     padding: 6rem 1rem;
     text-align: center;
     background: linear-gradient(to bottom, rgba(11, 15, 30, 0.98), rgba(11, 15, 30, 1));

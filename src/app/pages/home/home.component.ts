@@ -1,4 +1,4 @@
-import { Component, HostListener } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
@@ -6,6 +6,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { SpaceBackgroundComponent } from "../../components/space-background/space-background.component";
 
 @Component({
   selector: 'app-home',
@@ -16,8 +17,9 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatCardModule,
     MatChipsModule,
     MatDividerModule,
-    MatTooltipModule
-  ],
+    MatTooltipModule,
+    SpaceBackgroundComponent
+],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
