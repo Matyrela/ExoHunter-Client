@@ -1,10 +1,14 @@
 <div class="background-overlay"></div>
 <div class="background-image"></div>
-<app-space-background/>
+<app-space-background />
 
 <section class="home">
     <div class="home__bg-image"></div>
     <div class="home__overlay"></div>
+
+    <button class="credits-link" routerLink="/credits" matTooltip="Data & image credits">
+        <span class="credits-text">Credits</span>
+    </button>
 
     <div class="home__content">
         <div class="eyebrow">
@@ -23,27 +27,29 @@
 
         <div class="home__actions">
             <div class="home__primary-action">
-                <a mat-flat-button color="primary" routerLink="/explorer" class="btn-emphasized" matTooltip="Analyze new exoplanet data">
+                <a mat-flat-button color="primary" routerLink="/explorer" class="btn-emphasized"
+                    matTooltip="Analyze new exoplanet data">
                     <mat-icon>travel_explore</mat-icon>
                     Analyze New Data
                 </a>
             </div>
 
             <div class="home__secondary-actions">
-                <a mat-flat-button color="primary" routerLink="/charts" class="btn-secondary custom-button" matTooltip="View model performance metrics">
+                <button routerLink="/charts" class="btn-secondary" matTooltip="View model performance metrics">
                     <mat-icon>show_chart</mat-icon>
                     View Metrics
-                </a>
+                </button>
 
-                <a mat-flat-button color="primary" routerLink="/learn-more" class="btn-secondary custom-button" matTooltip="Understand the science and AI behind ExoHunter">
+                <button routerLink="/learn-more" class="btn-secondary"
+                    matTooltip="Understand the science and AI behind ExoHunter">
                     <mat-icon>menu_book</mat-icon>
                     Learn More
-                </a>
+                </button>
 
-                <a mat-flat-button color="primary" routerLink="/about" class="btn-secondary custom-button" matTooltip="Team & project details">
+                <button routerLink="/about" class="btn-secondary" matTooltip="Team & project details">
                     <mat-icon>info</mat-icon>
                     About
-                </a>
+                </button>
             </div>
         </div>
     </div>
@@ -83,6 +89,47 @@
                     Thousands have been discovered using data from NASA’s missions like <strong>Kepler</strong>,
                     <strong>K2</strong>, and <strong>TESS</strong>.
                     Each detection brings us closer to understanding how common — or rare — Earth-like worlds are.
+                </p>
+            </mat-card>
+
+            <mat-card class="info-card">
+                <mat-icon class="info-icon">stars</mat-icon>
+                <h3>Why Search for Exoplanets?</h3>
+                <p>
+                    Finding exoplanets helps us answer fundamental questions about our place in the universe.
+                    Are there other habitable worlds? How do planetary systems form and evolve?
+                    Each new discovery expands our knowledge of the cosmos and the potential for life beyond Earth.
+                </p>
+            </mat-card>
+
+            <mat-card class="info-card">
+                <mat-icon class="info-icon">numbers</mat-icon>
+                <h3>How Many Exoplanets Are There?</h3>
+                <p>
+                    As of now, thousands of exoplanets have been confirmed, with many more candidates awaiting
+                    validation.
+                    The exact number is constantly changing as new discoveries are made and old data is reanalyzed.
+                    See <a href="https://science.nasa.gov/exoplanets/exoplanet-catalog/" target="_blank">NASA's
+                        Exoplanet Archive</a> to explore the latest findings.
+                </p>
+            </mat-card>
+
+            <mat-card class="info-card">
+                <mat-icon class="info-icon">space_dashboard</mat-icon>
+                <h3>NASA Missions</h3>
+                <p>
+                    <strong>Kepler</strong> and <strong>TESS</strong> are space telescopes designed to find exoplanets
+                    by monitoring the brightness of stars.
+                    They collect vast amounts of data, capturing light curves that reveal potential planetary transits.
+                </p>
+            </mat-card>
+
+            <mat-card class="info-card">
+                <mat-icon class="info-icon">data_usage</mat-icon>
+                <h3>What Are Light Curves?</h3>
+                <p>
+                    Light curves are graphs that show how a star’s brightness changes over time.
+                    By analyzing these curves, astronomers can identify potential exoplanets.
                 </p>
             </mat-card>
 
@@ -127,6 +174,18 @@
                 </p>
             </mat-card>
         </div>
+
+        <div class="learn__end">
+            <mat-card class="info-card">
+                <h3>Want to learn more?</h3>
+                <p>Check out NASA's resources on exoplanets.</p>
+                <a href="https://exoplanets.nasa.gov/" target="_blank" mat-button color="primary" class="btn-secondary">
+                    <mat-icon>launch</mat-icon>
+                    Visit NASA Exoplanet Exploration
+                </a>
+            </mat-card>
+        </div>
+
 
         <div class="learn__footer">
             <h3>Want to see the data in action?</h3>

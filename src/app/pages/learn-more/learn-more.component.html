@@ -2,6 +2,13 @@
     <div class="learn__bg"></div>
     <div class="learn__glow"></div>
 
+    <nav class="about__navbar" style="position: absolute; top: 24px; right: 32px; z-index: 10;">
+        <button routerLink="/home" class="back-link" matTooltip="Back to Home">
+            <mat-icon>home</mat-icon>
+            Back to Home
+        </button>
+    </nav>
+
     <div class="learn__content">
         <div class="learn__eyebrow">
             <mat-icon>auto_awesome</mat-icon>
@@ -28,6 +35,47 @@
                     Thousands have been discovered using data from NASA’s missions like <strong>Kepler</strong>,
                     <strong>K2</strong>, and <strong>TESS</strong>.
                     Each detection brings us closer to understanding how common — or rare — Earth-like worlds are.
+                </p>
+            </mat-card>
+
+            <mat-card class="info-card">
+                <mat-icon class="info-icon">stars</mat-icon>
+                <h3>Why Search for Exoplanets?</h3>
+                <p>
+                    Finding exoplanets helps us answer fundamental questions about our place in the universe.
+                    Are there other habitable worlds? How do planetary systems form and evolve?
+                    Each new discovery expands our knowledge of the cosmos and the potential for life beyond Earth.
+                </p>
+            </mat-card>
+
+            <mat-card class="info-card">
+                <mat-icon class="info-icon">numbers</mat-icon>
+                <h3>How Many Exoplanets Are There?</h3>
+                <p>
+                    As of now, thousands of exoplanets have been confirmed, with many more candidates awaiting
+                    validation.
+                    The exact number is constantly changing as new discoveries are made and old data is reanalyzed.
+                    See <a href="https://science.nasa.gov/exoplanets/exoplanet-catalog/" target="_blank">NASA's
+                        Exoplanet Archive</a> to explore the latest findings.
+                </p>
+            </mat-card>
+
+            <mat-card class="info-card">
+                <mat-icon class="info-icon">space_dashboard</mat-icon>
+                <h3>NASA Missions</h3>
+                <p>
+                    <strong>Kepler</strong> and <strong>TESS</strong> are space telescopes designed to find exoplanets
+                    by monitoring the brightness of stars.
+                    They collect vast amounts of data, capturing light curves that reveal potential planetary transits.
+                </p>
+            </mat-card>
+
+            <mat-card class="info-card">
+                <mat-icon class="info-icon">data_usage</mat-icon>
+                <h3>What Are Light Curves?</h3>
+                <p>
+                    Light curves are graphs that show how a star’s brightness changes over time.
+                    By analyzing these curves, astronomers can identify potential exoplanets.
                 </p>
             </mat-card>
 
@@ -73,8 +121,19 @@
             </mat-card>
         </div>
 
+        <div class="learn__end">
+            <mat-card class="info-card">
+                <h3>Want to learn more?</h3>
+                <p>Check out NASA's resources on exoplanets.</p>
+                <a href="https://exoplanets.nasa.gov/" target="_blank" mat-button color="primary" class="btn-secondary">
+                    <mat-icon>launch</mat-icon>
+                    Visit NASA Exoplanet Exploration
+                </a>
+            </mat-card>
+        </div>
+
         <div class="learn__footer">
-            <h3>Want to see the data in action?</h3>
+            <h3>See the data in action!</h3>
             <a mat-flat-button color="primary" routerLink="/explorer" class="btn-primary">
                 <mat-icon>travel_explore</mat-icon>
                 Try the Data Explorer

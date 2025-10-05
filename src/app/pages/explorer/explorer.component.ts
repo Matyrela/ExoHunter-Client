@@ -4,11 +4,12 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-explorer',
   standalone: true,
-  imports: [MatCardModule, MatIconModule, MatButtonModule, MatDividerModule, CommonModule],
+  imports: [MatCardModule, MatIconModule, MatButtonModule, MatDividerModule, CommonModule, RouterModule],
   templateUrl: './explorer.component.html',
   styleUrls: ['./explorer.component.scss']
 })
