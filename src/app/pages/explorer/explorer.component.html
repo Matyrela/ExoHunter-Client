@@ -24,7 +24,7 @@
             <div class="file-input">
                 <input type="file" id="fileUpload" (change)="onFileSelected($event)" accept=".csv" hidden />
                 <label for="fileUpload" class="btn-upload" mat-flat-button color="primary">
-                    <mat-icon>cloud_upload</mat-icon>
+                    <mat-icon class="mat-icon-y">cloud_upload</mat-icon>
                     Choose CSV File
                 </label>
                 @if (fileName) {
@@ -47,18 +47,101 @@
             }
 
             <div class="actions">
-                <button mat-flat-button color="primary" (click)="predict()" [disabled]="!selectedFile">
-                    <mat-icon>rocket_launch</mat-icon>
-                    Run Prediction
+                <button mat-flat-button color="primary" (click)="predict()" [disabled]="!selectedFile || loading">
+                    @if (loading) {
+                        <mat-spinner diameter="20" class="inline-spinner"></mat-spinner>
+                        Processing...
+                    } @else {
+                        <ng-container>
+                            <mat-icon class="mat-icon-y">rocket_launch</mat-icon>
+                            @if (backendData.length === 0) {
+                              Run Prediction
+                            } @else {
+                              Re-run Prediction
+                            }
+                        </ng-container>
+                    }
                 </button>
             </div>
 
-            <mat-divider></mat-divider>
+            @if (loading) {
+            <div class="loading-section">
+                <mat-spinner diameter="40"></mat-spinner>
+                <p>Analyzing your data... This may take a few moments.</p>
+            </div>
+            }
 
-            @if (predictionResult) {
+            @if (uploadSuccess && backendData.length == 0) {
             <div class="prediction-result">
-                <h4><mat-icon>analytics</mat-icon> Prediction Result</h4>
-                <p>{{ predictionResult }}</p>
+                @if (backendData.length === 0 && uploadSuccess) {
+                <div class="no-data-message">
+                    <mat-icon>warning</mat-icon>
+                    <p>No data received from server. Please check your file format.</p>
+                    <details style="margin-top: 1rem; text-align: left;">
+                        <summary>Debug Info (click to expand)</summary>
+                        <pre style="font-size: 0.8rem; color: #94a3d1; margin-top: 0.5rem;">
+                      Prediction Result: {{ predictionResult }}
+                      Backend Data Length: {{ backendData.length }}
+                        </pre>
+                    </details>
+                </div>
+                }
+            </div>
+            }
+
+            @if (backendData.length > 0) {
+            <div class="data-visualization">
+                <div class="table-header-section">
+                    <div class="table-title">
+                        <mat-icon>table_view</mat-icon>
+                        <h4>Prediction Results Table</h4>
+                    </div>
+                    <div class="table-actions">
+                        <button mat-icon-button (click)="toggleSort()" [title]="getSortTitle()">
+                            <mat-icon>{{ getSortIcon() }}</mat-icon>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="table-info">
+                    <p>Showing all {{ backendData.length }} results {{ getSortDescription() }}</p>
+                    @if (backendData.length > 10000) {
+                        <div class="performance-warning">
+                            <mat-icon>info</mat-icon>
+                            <span>Large dataset detected. Virtual scrolling is active for optimal performance.</span>
+                        </div>
+                    }
+                </div>
+
+                <div class="virtual-scroll-container">
+                    <div class="table-header">
+                        <div class="header-row">
+                            <div class="header-cell clickable"
+                                 *ngFor="let key of getDataColumns(); trackBy: trackByKey"
+                                 (click)="sortByColumn(key)"
+                                 [class.active]="sortColumn === key">
+                                <span>{{ formatColumnName(key) }}</span>
+                                <mat-icon *ngIf="sortColumn === key" class="sort-icon">
+                                    {{ getSortIcon() }}
+                                </mat-icon>
+                            </div>
+                        </div>
+                    </div>
+
+                    <cdk-virtual-scroll-viewport itemSize="50" class="viewport" minBufferPx="100" maxBufferPx="200">
+                        <div class="data-row" *cdkVirtualFor="let item of backendData; trackBy: trackByIndex; templateCacheSize: 0">
+                            <div class="data-cell" *ngFor="let key of dataColumns; trackBy: trackByKey"
+                                 [attr.data-column]="key"
+                                 [class.prediction-positive]="key === 'prediction' && item[key] === 1"
+                                 [class.prediction-negative]="key === 'prediction' && item[key] === 0"
+                                 [class.high-probability]="key === 'probability' && getNumericValue(item[key]) >= 90"
+                                 [class.medium-probability]="key === 'probability' && getNumericValue(item[key]) >= 50 && getNumericValue(item[key]) < 90"
+                                 [class.low-probability]="key === 'probability' && getNumericValue(item[key]) < 50">
+                                {{ item[key] }}
+                            </div>
+                        </div>
+                    </cdk-virtual-scroll-viewport>
+                </div>
             </div>
             }
         </mat-card>
