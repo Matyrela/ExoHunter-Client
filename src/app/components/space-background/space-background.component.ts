@@ -16,9 +16,10 @@ export class SpaceBackgroundComponent implements OnInit, OnDestroy {
   private animationId?: number;
   private readonly clock = new THREE.Clock();
   private loader!: GLTFLoader;
-  private stars!: THREE.Points;
   private webbModel?: THREE.Group;
   private scrollOffset = 0;
+
+  disableMouseEffect = false;
 
   ngOnInit(): void {
     this.initScene();
@@ -46,8 +47,6 @@ export class SpaceBackgroundComponent implements OnInit, OnDestroy {
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     this.renderer.outputColorSpace = THREE.SRGBColorSpace;
 
-    console.log('Renderer configurado', this.renderer);
-
     // 💡 Luces sutiles
     const ambientLight = new THREE.AmbientLight(0xffffff, 0.4);
     const directionalLight = new THREE.DirectionalLight(0xbcd0ff, 0.6);
@@ -61,10 +60,8 @@ export class SpaceBackgroundComponent implements OnInit, OnDestroy {
     this.loader.setDRACOLoader(dracoLoader);
 
     // 🪐 James Webb
-    console.log('Cargando James Webb...');
     this.loader.load('jameswebb.glb',
       (gltf) => {
-        console.log('James Webb cargado exitosamente', gltf);
         this.webbModel = gltf.scene;
         const model = this.webbModel;
         model.scale.set(0.18, 0.18, 0.18);
@@ -86,10 +83,8 @@ export class SpaceBackgroundComponent implements OnInit, OnDestroy {
     });
 
     // 🌍 Proxima B
-    console.log('Cargando Proxima B...');
     this.loader.load('proximab.glb',
       (gltf) => {
-        console.log('Proxima B cargado exitosamente', gltf);
         const model = gltf.scene;
         model.scale.set(0.0035, 0.0035, 0.0035);
         model.position.set(8, 3, -4);
@@ -114,6 +109,8 @@ export class SpaceBackgroundComponent implements OnInit, OnDestroy {
 
   // 🖱️ Movimiento leve con mouse
   private readonly onMouseMove = (event: MouseEvent) => {
+    if (this.disableMouseEffect) return;
+
     const x = (event.clientX / window.innerWidth - 0.5);
     const y = -(event.clientY / window.innerHeight - 0.5);
     this.camera.position.x = x * 0.3;
@@ -125,17 +122,21 @@ export class SpaceBackgroundComponent implements OnInit, OnDestroy {
   @HostListener('window:scroll')
   onScroll(): void {
     const scrollY = window.scrollY || window.pageYOffset;
+    if (scrollY === 0) {
+      this.disableMouseEffect = false;
+    } else {
+      this.disableMouseEffect = true;
+    }
     this.scrollOffset = scrollY / window.innerHeight;
 
     // la cámara se aleja y rota suavemente
     this.camera.position.z = 8 + this.scrollOffset * 2.5;
-    this.camera.rotation.x = this.scrollOffset * 0.2;
+    this.camera.rotation.x = this.scrollOffset * 0.35;
   }
 
   // 🔄 Animación global
   private readonly animate = () => {
     this.animationId = requestAnimationFrame(this.animate);
-
     this.renderer.render(this.scene, this.camera);
   };
 

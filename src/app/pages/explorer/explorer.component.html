@@ -1,13 +1,14 @@
 <section class="explorer">
     <div class="explorer__bg"></div>
-    <div class="explorer__glow"></div>
+
+    <nav class="about__navbar" style="position: absolute; top: 24px; right: 32px; z-index: 10;">
+      <button routerLink="/home" class="back-link" matTooltip="Back to Home">
+        <mat-icon>home</mat-icon>
+        Back to Home
+      </button>
+    </nav>
 
     <div class="explorer__content">
-        <div class="explorer__eyebrow">
-            <mat-icon>upload_file</mat-icon>
-            ExoHunter Data Explorer
-        </div>
-
         <h1 class="explorer__title">
             Upload Your Dataset
             <span class="explorer__title-fade">and Predict Exoplanets</span>
@@ -19,7 +20,26 @@
         </p>
 
         <mat-card class="explorer__card">
-            <h3><mat-icon>description</mat-icon> Select File</h3>
+            <div class="card-header">
+                <h3><mat-icon>description</mat-icon> Select File</h3>
+                <div class="example-downloads">
+                    <span class="example-label">Example files:</span>
+                    <div class="download-buttons">
+                        <button mat-stroked-button class="example-btn" (click)="downloadExample('1000example.csv')">
+                            <mat-icon>download</mat-icon>
+                            1K rows
+                        </button>
+                        <button mat-stroked-button class="example-btn" (click)="downloadExample('5000example.csv')">
+                            <mat-icon>download</mat-icon>
+                            5K rows
+                        </button>
+                        <button mat-stroked-button class="example-btn" (click)="downloadExample('10000example.csv')">
+                            <mat-icon>download</mat-icon>
+                            10K rows
+                        </button>
+                    </div>
+                </div>
+            </div>
 
             <div class="file-input">
                 <input type="file" id="fileUpload" (change)="onFileSelected($event)" accept=".csv" hidden />
@@ -66,8 +86,10 @@
 
             @if (loading) {
             <div class="loading-section">
+              <div>
                 <mat-spinner diameter="40"></mat-spinner>
-                <p>Analyzing your data... This may take a few moments.</p>
+              </div>
+              <p>Analyzing your data... This may take a few moments.</p>
             </div>
             }
 
@@ -89,6 +111,21 @@
             </div>
             }
 
+            @if (serverError) {
+              <div class="server-error-message">
+                  <mat-icon>error</mat-icon>
+                  <h4>Server Error</h4>
+                  <p>There was an error processing your request on the server. Please try again later or contact support if the problem persists.</p>
+                  <div class="error-details">
+                      <p><strong>Error:</strong> {{ predictionResult }}</p>
+                  </div>
+                  <button mat-flat-button color="warn" (click)="predict()" [disabled]="!selectedFile">
+                      <mat-icon>refresh</mat-icon>
+                      Try Again
+                  </button>
+              </div>
+            }
+
             @if (backendData.length > 0) {
             <div class="data-visualization">
                 <div class="table-header-section">
@@ -96,21 +133,25 @@
                         <mat-icon>table_view</mat-icon>
                         <h4>Prediction Results Table</h4>
                     </div>
-                    <div class="table-actions">
-                        <button mat-icon-button (click)="toggleSort()" [title]="getSortTitle()">
-                            <mat-icon>{{ getSortIcon() }}</mat-icon>
-                        </button>
-                    </div>
                 </div>
 
-                <div class="table-info">
-                    <p>Showing all {{ backendData.length }} results {{ getSortDescription() }}</p>
-                    @if (backendData.length > 10000) {
-                        <div class="performance-warning">
-                            <mat-icon>info</mat-icon>
-                            <span>Large dataset detected. Virtual scrolling is active for optimal performance.</span>
-                        </div>
-                    }
+                <div class="table-actions">
+                    <div class="search-container">
+                        <mat-form-field appearance="outline">
+                            <mat-label>Search</mat-label>
+                            <input matInput [(ngModel)]="searchTerm" (input)="onSearch()" placeholder="Type to search..." />
+                            <button mat-icon-button matSuffix *ngIf="searchTerm" (click)="searchTerm = ''; onSearch()">
+                                <mat-icon>close</mat-icon>
+                            </button>
+                        </mat-form-field>
+                    </div>
+
+                    <div class="threshold-container">
+                        <label for="threshold-slider">Prediction Threshold: {{ predictionThreshold }}%</label>
+                        <mat-slider min="0" max="100" step="1" discrete>
+                            <input matSliderThumb [value]="predictionThreshold" (valueChange)="onThresholdChange($event)">
+                        </mat-slider>
+                    </div>
                 </div>
 
                 <div class="virtual-scroll-container">
@@ -129,18 +170,38 @@
                     </div>
 
                     <cdk-virtual-scroll-viewport itemSize="50" class="viewport" minBufferPx="100" maxBufferPx="200">
-                        <div class="data-row" *cdkVirtualFor="let item of backendData; trackBy: trackByIndex; templateCacheSize: 0">
+                        <div class="data-row" *cdkVirtualFor="let item of displayData; trackBy: trackByIndex; templateCacheSize: 0">
                             <div class="data-cell" *ngFor="let key of dataColumns; trackBy: trackByKey"
                                  [attr.data-column]="key"
                                  [class.prediction-positive]="key === 'prediction' && item[key] === 1"
                                  [class.prediction-negative]="key === 'prediction' && item[key] === 0"
-                                 [class.high-probability]="key === 'probability' && getNumericValue(item[key]) >= 90"
-                                 [class.medium-probability]="key === 'probability' && getNumericValue(item[key]) >= 50 && getNumericValue(item[key]) < 90"
-                                 [class.low-probability]="key === 'probability' && getNumericValue(item[key]) < 50">
-                                {{ item[key] }}
+                                 [ngClass]="key === 'probability' ? getProbabilityClass(item[key]) : ''">
+                                @if (key === 'prediction') {
+                                    {{ getPredictionIcon(item[key]) }}
+                                } @else {
+                                    {{ item[key] }}
+                                }
                             </div>
                         </div>
                     </cdk-virtual-scroll-viewport>
+                </div>
+
+                <br>
+
+                <div class="table-info">
+                    <p>
+                        @if (searchTerm.trim()) {
+                            Showing {{ displayData.length }} of {{ originalData.length }} results (filtered) {{ getSortDescription() }}
+                        } @else {
+                            Showing all {{ displayData.length }} results {{ getSortDescription() }}
+                        }
+                    </p>
+                    @if (originalData.length > 10000) {
+                        <div class="performance-warning">
+                            <mat-icon>info</mat-icon>
+                            <span>Large dataset detected. Virtual scrolling is active for optimal performance.</span>
+                        </div>
+                    }
                 </div>
             </div>
             }
