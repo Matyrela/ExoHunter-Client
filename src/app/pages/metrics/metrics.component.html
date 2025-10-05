@@ -1,0 +1,43 @@
+<section class="metrics">
+    <div class="metrics__bg"></div>
+    <div class="metrics__glow"></div>
+
+    <div class="metrics__content">
+        <div class="metrics__eyebrow">
+            <mat-icon>show_chart</mat-icon>
+            Model Evaluation
+        </div>
+
+        <h1 class="metrics__title">
+            Model Performance & Insights
+            <span class="metrics__title-fade">Understanding How ExoHunter Learns</span>
+        </h1>
+
+        <p class="metrics__intro">
+            These metrics summarize the model’s accuracy, precision, recall, and key performance aspects.
+            Each visualization is derived from the trained LightGBM and CNN models using NASA mission data.
+        </p>
+
+        <div class="metrics__grid">
+            <mat-card *ngFor="let chart of charts" class="metric-card">
+                <img [src]="chart.img" [alt]="chart.title" class="metric-img" />
+                <mat-divider></mat-divider>
+                <div class="metric-info">
+                    <h3>{{ chart.title }}</h3>
+                    <p>{{ chart.description }}</p>
+                </div>
+            </mat-card>
+        </div>
+
+        <div class="metrics__footer">
+            <a mat-stroked-button routerLink="/home" class="btn-secondary">
+                <mat-icon>home</mat-icon>
+                Back to Home
+            </a>
+            <a mat-flat-button routerLink="/explorer" color="primary" class="btn-primary">
+                <mat-icon>travel_explore</mat-icon>
+                Go to Explorer
+            </a>
+        </div>
+    </div>
+</section>

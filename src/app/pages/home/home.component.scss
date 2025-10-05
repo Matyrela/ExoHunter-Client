@@ -96,7 +96,7 @@ app-space-background {
 .home__title {
     font-family: 'Orbitron', sans-serif;
     font-weight: 800;
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-size: clamp(4rem, 5vw, 3.5rem);
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #fff;
@@ -106,7 +106,7 @@ app-space-background {
 
 .home__title-fade {
     display: block;
-    margin-top: 0.6rem;
+    margin-top: 1rem;
     line-height: 1.2;
     font-size: 1.6rem;
     font-weight: 700;
