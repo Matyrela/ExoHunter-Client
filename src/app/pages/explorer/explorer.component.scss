@@ -401,9 +401,21 @@
     background: rgba(124, 92, 255, 0.05);
     border-radius: 16px;
     border: 1px solid rgba(148, 163, 209, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
 
     mat-spinner {
-        margin-bottom: 1.5rem;
+        display: block;
+        margin: 0 auto;
 
         ::ng-deep .mdc-circular-progress__determinate-circle,
         ::ng-deep .mdc-circular-progress__indeterminate-circle-graphic {
@@ -416,6 +428,7 @@
         color: #c3cbff;
         font-size: 1rem;
         margin: 0;
+        text-align: center;
     }
 }
 
@@ -794,6 +807,7 @@
             }
 
             .mat-mdc-icon-button {
+              margin-right: 0.5rem;
                 color: #94a3d1;
                 transition: all 0.3s ease;
 
@@ -860,6 +874,48 @@
 
         &:active mat-icon {
             transform: scale(0.9);
+        }
+    }
+
+    .download-container {
+        display: flex;
+        align-items: center;
+
+        .download-btn {
+            background: linear-gradient(135deg, #7c5cff, #5aa6ff);
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            padding: 0.8rem 1.5rem;
+            font-weight: 600;
+            font-size: 0.9rem;
+            font-family: 'Rajdhani', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            box-shadow: 0 4px 15px rgba(124, 92, 255, 0.3);
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+
+            &:hover {
+                background: linear-gradient(135deg, #8a6bff, #6bb6ff);
+                transform: translateY(-2px);
+                box-shadow:
+                    0 6px 20px rgba(124, 92, 255, 0.4),
+                    0 0 20px rgba(90, 166, 255, 0.3);
+            }
+
+            &:active {
+                transform: translateY(0);
+                box-shadow: 0 2px 10px rgba(124, 92, 255, 0.3);
+            }
+
+            mat-icon {
+                font-size: 1.1rem;
+                width: 1.1rem;
+                height: 1.1rem;
+            }
         }
     }
 }
@@ -1148,6 +1204,21 @@
                 font-size: 0.9rem;
             }
         }
+
+        .download-container {
+            .download-btn {
+                padding: 0.6rem 1rem;
+                font-size: 0.8rem;
+                width: 100%;
+                justify-content: center;
+
+                mat-icon {
+                    font-size: 1rem;
+                    width: 1rem;
+                    height: 1rem;
+                }
+            }
+        }
     }
 
     .card-header {
@@ -1161,7 +1232,7 @@
 
             .download-buttons {
                 justify-content: center;
-                
+
                 .example-btn {
                     font-size: 0.75rem;
                     padding: 0.35rem 0.6rem;

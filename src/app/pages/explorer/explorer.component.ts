@@ -49,13 +49,11 @@ export class ExplorerComponent {
   showData = false;
   serverError = false;
 
-  // Search and filter properties
   searchTerm = '';
   filteredData: any[] = [];
   predictionThreshold = 50;
   displayData: any[] = [];
 
-  // Sorting properties
   sortColumn = 'probability';
   sortDirection: 'asc' | 'desc' = 'desc';
 
@@ -84,6 +82,7 @@ export class ExplorerComponent {
       this.predictionResult = null;
       this.showData = false;
       this.serverError = false;
+      this.searchTerm = '';
 
       const response = await lastValueFrom(this.uploadService.uploadCsv(this.selectedFile!));
 
@@ -91,41 +90,27 @@ export class ExplorerComponent {
       this.uploadSuccess = true;
       this.predictionResult = response.prediction;
 
-      console.log('Full response:', response);
       const fullData = this.extractDataFromResponse(response);
       this.fullDataLength = fullData.length;
 
-      // Procesar y filtrar datos
       this.originalData = this.processData(fullData);
       this.backendData = [...this.originalData];
 
-      // Pre-calcular las columnas para evitar recálculos
       if (this.backendData.length > 0) {
         this.dataColumns = this.getObjectKeys(this.backendData[0]);
       }
 
-      // Aplicar ordenamiento inicial por probabilidad descendente
       this.applySorting();
-
-      console.log('Processed backend data:', this.fullDataLength, 'total rows');
-      console.log('Columns:', this.dataColumns);
-
-      // NO mostrar automáticamente para evitar lag - dejar que el usuario decida
-      // if (this.backendData.length > 0) {
-      //   this.showData = true;
-      // }
     } catch (error) {
       this.handlePredictionError(error);
     }
   }
 
   private extractDataFromResponse(response: any): any[] {
-    // Caso 1: Los datos están en response.data
     if (response.data) {
       return Array.isArray(response.data) ? response.data : Object.values(response.data);
     }
 
-    // Caso 2: Los datos están directamente en response (índices numéricos)
     if (response && typeof response === 'object') {
       const numericKeys = Object.keys(response).filter(key => !isNaN(Number(key)));
       if (numericKeys.length > 0) {
@@ -133,7 +118,6 @@ export class ExplorerComponent {
       }
     }
 
-    // Caso 3: Buscar arrays o objetos indexados en cualquier propiedad
     return this.findDataInObject(response);
   }
 
@@ -165,14 +149,12 @@ export class ExplorerComponent {
       if (processedItem.probability !== undefined) {
         const probabilityValue = parseFloat(processedItem.probability);
         processedItem.probability = isNaN(probabilityValue) ? '0.00000%' : (probabilityValue * 100).toFixed(5) + '%';
-        // Ignorar prediction del backend y calcular basado en threshold
         processedItem.prediction = probabilityValue * 100 > this.predictionThreshold ? 1 : 0;
       }
 
       return processedItem;
     });
 
-    // Inicializar datos filtrados
     this.filteredData = [...processed];
     this.displayData = [...processed];
 
@@ -187,7 +169,6 @@ export class ExplorerComponent {
 
     console.error('Error during prediction:', error);
 
-    // Check if it's a 500 server error
     if (error.status === 500) {
       this.serverError = true;
       this.predictionResult = 'Server error occurred while processing your request.';
@@ -224,7 +205,6 @@ export class ExplorerComponent {
     return parseFloat(value) || 0;
   }
 
-  // Sorting methods
   toggleSort(): void {
     if (this.sortDirection === 'asc') {
       this.sortDirection = 'desc';
@@ -235,24 +215,20 @@ export class ExplorerComponent {
   }
 
   applySorting(): void {
-    // Actualizar filteredData (datos base sin filtro de búsqueda)
     this.filteredData = [...this.originalData].sort((a, b) => {
       let valueA = a[this.sortColumn];
       let valueB = b[this.sortColumn];
 
-      // Handle probability values (convert percentage to number)
       if (this.sortColumn === 'probability') {
         valueA = this.getNumericValue(valueA);
         valueB = this.getNumericValue(valueB);
       }
 
-      // Handle prediction values (convert to number)
       if (this.sortColumn === 'prediction') {
         valueA = Number(valueA);
         valueB = Number(valueB);
       }
 
-      // Handle string values
       if (typeof valueA === 'string') {
         valueA = valueA.toLowerCase();
       }
@@ -270,10 +246,8 @@ export class ExplorerComponent {
       return this.sortDirection === 'desc' ? -comparison : comparison;
     });
 
-    // Mantener backendData para compatibilidad
     this.backendData = [...this.filteredData];
 
-    // Actualizar displayData si hay búsqueda activa
     if (this.searchTerm.trim()) {
       this.onSearch();
     } else {
@@ -302,7 +276,7 @@ export class ExplorerComponent {
       this.sortDirection = this.sortDirection === 'asc' ? 'desc' : 'asc';
     } else {
       this.sortColumn = column;
-      this.sortDirection = 'desc'; // Default to descending for new column
+      this.sortDirection = 'desc';
     }
     this.applySorting();
   }
@@ -324,7 +298,6 @@ export class ExplorerComponent {
         if (value === null || value === undefined || typeof value === 'object') {
           return false;
         }
-        // Solo procesar tipos primitivos
         if (typeof value === 'string' || typeof value === 'number' || typeof value === 'boolean') {
           return value.toString().toLowerCase().includes(searchLower);
         }
@@ -339,7 +312,6 @@ export class ExplorerComponent {
   }
 
   private updatePredictions(): void {
-    // Actualizar predictions basado en el nuevo threshold
     this.originalData.forEach(item => {
       if (item.probability !== undefined) {
         const probabilityValue = parseFloat(item.probability.replace('%', ''));
@@ -349,7 +321,7 @@ export class ExplorerComponent {
 
     this.filteredData = [...this.originalData];
     this.applySorting();
-    this.onSearch(); // Aplicar filtro de búsqueda si existe
+    this.onSearch();
   }
 
   getPredictionIcon(prediction: number): string {
@@ -374,15 +346,76 @@ export class ExplorerComponent {
   }
 
   downloadExample(filename: string): void {
-    // Crear enlace temporal para descarga
     const link = document.createElement('a');
     link.href = `/${filename}`;
     link.download = filename;
     link.target = '_blank';
 
-    // Agregar al DOM, hacer clic y remover
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+  }
+
+  downloadProcessedData(): void {
+    if (!this.originalData || this.originalData.length === 0) {
+      console.warn('No processed data available for download');
+      return;
+    }
+
+    // Usar displayData para incluir filtros de búsqueda si los hay
+    const dataToDownload = this.displayData.length > 0 ? this.displayData : this.originalData;
+
+    // Obtener headers dinámicamente de las columnas disponibles
+    const headers = this.dataColumns;
+
+    // Convertir datos a CSV
+    const csvContent = this.convertToCSV(dataToDownload, headers);
+
+    // Crear blob y descargar
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const link = document.createElement('a');
+
+    if (link.download !== undefined) {
+      const url = URL.createObjectURL(blob);
+      link.setAttribute('href', url);
+
+      // Nombre del archivo con timestamp
+      const timestamp = new Date().toISOString().slice(0, 19).replace(/:/g, '-');
+      const searchSuffix = this.searchTerm.trim() ? '_filtered' : '';
+      link.setAttribute('download', `exoplanet_predictions_${timestamp}${searchSuffix}.csv`);
+
+      link.style.visibility = 'hidden';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    }
+  }
+
+  private convertToCSV(data: any[], headers: string[]): string {
+    // Crear header row
+    const headerRow = headers.join(',');
+
+    // Crear data rows
+    const dataRows = data.map(row => {
+      return headers.map(header => {
+        let value = row[header];
+
+        // Manejar valores undefined/null
+        value ??= '';
+
+        // Escapar comillas y comas en CSV
+        if (typeof value === 'string') {
+          // Si contiene coma, comilla o salto de línea, envolver en comillas
+          if (value.includes(',') || value.includes('"') || value.includes('\n')) {
+            value = `"${value.replace(/"/g, '""')}"`;
+          }
+        }
+
+        return value;
+      }).join(',');
+    });
+
+    return [headerRow, ...dataRows].join('\n');
   }
 }

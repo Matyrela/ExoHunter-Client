@@ -152,6 +152,14 @@
                             <input matSliderThumb [value]="predictionThreshold" (valueChange)="onThresholdChange($event)">
                         </mat-slider>
                     </div>
+
+                    <div class="download-container">
+                        <button mat-flat-button class="download-btn" (click)="downloadProcessedData()"
+                                matTooltip="Download current results as CSV">
+                            <mat-icon>file_download</mat-icon>
+                            Download CSV
+                        </button>
+                    </div>
                 </div>
 
                 <div class="virtual-scroll-container">
