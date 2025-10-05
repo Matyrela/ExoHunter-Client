@@ -3,7 +3,7 @@
 .metrics {
     position: relative;
     min-height: 100vh;
-    padding: 6rem 1rem;
+    padding: 6rem 1rem 8rem;
     text-align: center;
     color: #e8edff;
     font-family: 'Rajdhani', sans-serif;
@@ -46,6 +46,7 @@
     color: #fff;
     margin-bottom: 0.4rem;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .metrics__title-fade {
@@ -69,20 +70,21 @@
     line-height: 1.6;
 }
 
+/* ==== PIPELINE CARDS ==== */
 .pipeline {
     display: flex;
     justify-content: center;
-    gap: 1.2rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
-    margin-bottom: 3rem;
+    margin-bottom: 3.5rem;
 }
 
 .pipeline__card {
-    background: linear-gradient(180deg, rgba(18, 23, 53, 0.8), rgba(14, 20, 40, 0.9));
+    background: linear-gradient(180deg, rgba(20, 25, 60, 0.9), rgba(12, 18, 35, 0.95));
     border: 1px solid rgba(147, 121, 255, 0.18);
     border-radius: 14px;
-    padding: 1.5rem 1rem;
-    width: 280px;
+    padding: 1.4rem 1rem;
+    width: 250px;
     color: #e8edff;
     box-shadow: 0 4px 18px rgba(20, 25, 60, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -91,28 +93,32 @@
 
 .pipeline__card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 10px 25px rgba(90, 166, 255, 0.4);
+    box-shadow: 0 8px 24px rgba(90, 166, 255, 0.35);
 }
 
 .pipeline__icon {
-    font-size: 1.5rem;
-    color: #ab9aef;
-    margin-bottom: 0.1rem;
+    font-size: 1.8rem;
+    color: #a99eff;
+    margin-bottom: 0.3rem;
+    filter: drop-shadow(0 0 8px rgba(124, 92, 255, 0.4));
 }
 
 .pipeline__card h4 {
     font-family: 'Orbitron', sans-serif;
     font-weight: 700;
     color: #ffffff;
-    margin: 0.2rem 0 0.5rem;
+    margin: 0.3rem 0 0 0rem;
+    text-transform: uppercase;
+    font-size: 1rem;
 }
 
 .pipeline__card p {
     color: #b0b8e0;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     line-height: 1.4;
 }
 
+/* ==== FINAL PERFORMANCE ==== */
 .metrics__section {
     margin-top: 3rem;
     text-align: center;
@@ -137,33 +143,120 @@
     }
 }
 
+/* ==== SCORE SUMMARY ==== */
+.metrics__summary {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.score-card {
+    background: rgba(20, 25, 60, 0.8);
+    border: 1px solid rgba(147, 121, 255, 0.18);
+    border-radius: 14px;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 18px rgba(20, 25, 60, 0.5);
+}
+
+.score-card h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: #a99eff;
+    margin-bottom: 1rem;
+}
+
+.score-grid {
+  display: flex;
+  gap: 1rem;
+  justify-items: center;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    background: rgba(124, 92, 255, 0.1);
+    border-radius: 10px;
+    padding: 0.6rem 0.5rem;
+    box-shadow: 0 0 10px rgba(90, 166, 255, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.score:hover {
+    transform: scale(1.05);
+}
+
+.score__label {
+    font-size: 0.85rem;
+    color: #c3cbff;
+}
+
+.score__value {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* ====== METRICS IMAGES ====== */
+
 .metrics__images {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-    margin-top: 2rem;
+    display: flex;
+    justify-content: right; /* centra horizontalmente todas */
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2.5rem;
+    padding: 0 2rem;
 }
 
 .graph-card {
-    background: rgba(18, 23, 53, 0.75);
-    border: 1px solid rgba(148, 163, 209, 0.18);
+    max-width: 30rem;
+    min-width: 30rem;
+    background: rgba(18, 23, 53, 0.85);
+    border: 1px solid rgba(147, 121, 255, 0.18);
     border-radius: 16px;
-    padding: 1rem;
+    padding: 1.25rem;
     text-align: center;
-    transition: transform 0.3s ease;
+    color: #c3cbff;
+    box-shadow: 0 4px 20px rgba(20, 25, 60, 0.55);
+    transition: all 0.3s ease;
 }
 
 .graph-card img {
     width: 100%;
+    height: auto;
     border-radius: 12px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(147, 121, 255, 0.18);
+    box-shadow: 0 0 15px rgba(90, 166, 255, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .graph-card p {
-    font-size: 0.9rem;
-    color: #c3cbff;
+    margin-top: auto;
+    font-size: 0.95rem;
+    color: #a6b2e8;
+    font-weight: 500;
+    letter-spacing: 0.3px;
 }
 
+/* ====== ANIMATION ====== */
+@keyframes fadeInImage {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.graph-card {
+    animation: fadeInImage 0.8s ease forwards;
+}
+
+/* ==== FOOTER ==== */
 .metrics__footer {
     display: flex;
     justify-content: center;
@@ -179,7 +272,7 @@
     font-weight: 600;
     text-transform: uppercase;
     transition: all 0.3s ease;
-    padding: 0.5rem;
+    padding: 0.6rem 1.4rem;
 }
 
 .btn-primary:hover {
@@ -195,6 +288,7 @@
     font-weight: 600;
     text-transform: uppercase;
     transition: all 0.3s ease;
+    padding: 0.6rem 1.4rem;
 }
 
 .btn-secondary:hover {
@@ -203,12 +297,18 @@
     box-shadow: 0 0 20px rgba(90, 166, 255, 0.4);
 }
 
-@keyframes fade-glow {
-    0% {
-        background-position: 0% 50%;
+/* ==== RESPONSIVE ==== */
+@media (max-width: 768px) {
+    .pipeline__card {
+        width: 90%;
     }
 
-    100% {
-        background-position: 100% 50%;
+    .metrics__matrix {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .score-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }

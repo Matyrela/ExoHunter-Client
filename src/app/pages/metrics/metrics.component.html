@@ -10,33 +10,36 @@
 
         <p class="metrics__intro">
             ExoHunter’s model integrates complementary AI approaches — combining statistical precision and deep learning
-            pattern
-            recognition — to classify exoplanets from official NASA data with scientific rigor and transparency.
+            pattern recognition — to classify exoplanets from official NASA data with scientific rigor and transparency.
         </p>
 
         <!-- PIPELINE SECTION -->
         <div class="pipeline">
             <div class="pipeline__card">
                 <mat-icon class="pipeline__icon">tune</mat-icon>
-                <h4>Phase 1<br />Gradient Boosting</h4>
-                <p>
-                    LightGBM model with log₁₊ normalization and host-group validation.
+                <h4>Phase 1</h4>
+                <h2>Tabular Gradient Boosting</h2>
+                <p>A LightGBM pipeline with median imputation, log1p normalization,
+                    and ordinal encoding for categorical variables. Trained with group-aware
+                    validation by stellar host to avoid data leakage.
                 </p>
             </div>
 
             <div class="pipeline__card">
                 <mat-icon class="pipeline__icon">auto_graph</mat-icon>
-                <h4>Phase 2<br />1D-CNN</h4>
-                <p>
-                    Learns temporal brightness variations typical of planetary transits.
-                </p>
+                <h4>Phase 2</h4>
+                <h2>Neural network (1D-CNN)</h2>
+                <p>A deep learning model built in TensorFlow/Keras that learns
+                    from temporal and photometric patterns, detecting subtle variations in brightness typical of
+                    planetary transits.</p>
             </div>
 
             <div class="pipeline__card">
-                <mat-icon class="pipeline__icon">merge</mat-icon>
-                <h4>Phase 3<br />Ensemble</h4>
-                <p>
-                    Weighted fusion of both models for stable and robust performance.
+                <mat-icon class="pipeline__icon">merge_type</mat-icon>
+                <h4>Phase 3</h4>
+                <h2>Ensemble Integration</h2>
+                <p>Combines the strengths of both models through weighted voting,
+                    achieving robust performance across diverse detection methods.
                 </p>
             </div>
         </div>
@@ -47,30 +50,68 @@
         <div class="metrics__section">
             <h3><mat-icon>insights</mat-icon> Final Model Performance</h3>
             <p>
-                ExoHunter’s ensemble achieves <strong>94.3% accuracy</strong>, <strong>98% recall</strong>, and an
-                <strong>AUC of 0.97</strong> — validated exclusively on <strong>official NASA datasets</strong>.
+                ExoHunter’s performance was achieved and validated exclusively on <strong>official NASA
+                    datasets</strong>.
                 No synthetic or fabricated data was introduced during training, ensuring scientific authenticity and
                 reproducibility.
             </p>
 
+            <!-- PERFORMANCE SUMMARY -->
+            <div class="metrics__summary">
+                <mat-card class="score-card">
+                    <h3>Model Evaluation Summary</h3>
+                    <div class="score-grid">
+                        <div class="score">
+                            <span class="score__label">ROC-AUC</span>
+                            <span class="score__value">0.951</span>
+                        </div>
+
+                        <div class="score">
+                            <span class="score__label">PR-AUC</span>
+                            <span class="score__value">0.919</span>
+                        </div>
+
+                        <div class="score">
+                            <span class="score__label">Accuracy</span>
+                            <span class="score__value">0.882</span>
+                        </div>
+
+                        <div class="score">
+                            <span class="score__label">F1-Score</span>
+                            <span class="score__value">0.928</span>
+                        </div>
+
+                        <div class="score">
+                            <span class="score__label">Threshold</span>
+                            <span class="score__value">0.500</span>
+                        </div>
+                    </div>
+
+                </mat-card>
+            </div>
+
+
+            <!-- CONFUSION MATRIX -->
+            <div class="metrics__matrix">
+                <mat-card class="graph-card">
+                    <img src="/matriz.jpg" alt="Confusion Matrix" />
+                    <p>Confusion Matrix (threshold = 0.5)</p>
+                </mat-card>
+            </div>
+
+
+            <!-- ADDITIONAL GRAPHS -->
             <div class="metrics__images">
                 <mat-card class="graph-card">
-                    <img src="/assets/metrics/confusion_matrix.png" alt="Confusion Matrix" />
-                    <p>Confusion Matrix (Ensemble)</p>
-                </mat-card>
-
-                <mat-card class="graph-card">
-                    <img src="/assets/metrics/roc_curve.png" alt="ROC Curve" />
+                    <img src="/training_report.roc.png" alt="ROC Curve" />
                     <p>ROC Curve Comparison</p>
                 </mat-card>
 
-                <mat-card class="graph-card">
-                    <img src="/assets/metrics/feature_importance.png" alt="Feature Importance" />
-                    <p>Feature Importance (LightGBM)</p>
-                </mat-card>
+
             </div>
         </div>
 
+        <!-- FOOTER -->
         <div class="metrics__footer">
             <a mat-flat-button color="primary" routerLink="/explorer" class="btn-primary">
                 <mat-icon>travel_explore</mat-icon>
