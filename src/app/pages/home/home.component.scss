@@ -104,6 +104,15 @@ app-space-background {
     text-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
 }
 
+.button-hint {
+    margin-top: -0.6rem; 
+    margin-bottom: 0.1rem;
+    font-size: 0.9rem;
+    color: #a9b8ff;
+    opacity: 0.9;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
 .home__title-fade {
     display: block;
     margin-top: 1rem;
@@ -140,6 +149,7 @@ app-space-background {
 .home__primary-action {
     width: 100%;
     display: flex;
+
     justify-content: center;
 }
 
