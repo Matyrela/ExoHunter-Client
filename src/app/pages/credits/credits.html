@@ -1,4 +1,94 @@
-<p>credits works!</p>
-<p> imagen:
-    https://science.nasa.gov/image-detail/c62-1/
-</p>
+<section class="credits">
+    <div class="credits__bg"></div>
+    <div class="credits__glow"></div>
+
+    <div class="credits__content">
+        <h1 class="credits__title">
+            Credits & Data Sources
+            <span class="credits__title-fade">NASA, Partners & Open Research</span>
+        </h1>
+
+        <p class="credits__intro">
+            ExoHunter is powered by open NASA datasets, mission archives, and research publications that inspire
+            exploration and innovation.
+        </p>
+
+        <mat-divider></mat-divider>
+
+        <div class="credits__section">
+            <h3><mat-icon>public</mat-icon> NASA Data</h3>
+            <ul>
+                <li>
+                    <mat-icon>dataset</mat-icon>
+                    <a href="https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative"
+                        target="_blank">
+                        Kepler Objects of Interest
+                    </a>
+                </li>
+                <li>
+                    <mat-icon>dataset</mat-icon>
+                    <a href="https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=TOI"
+                        target="_blank">
+                        TESS Objects of Interest
+                    </a>
+                </li>
+                <li>
+                    <mat-icon>dataset</mat-icon>
+                    <a href="https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=k2pandc"
+                        target="_blank">
+                        K2 Planets and Candidates
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="credits__section">
+            <h3><mat-icon>satellite_alt</mat-icon> Space Imagery & 3D Models</h3>
+            <ul>
+                <li>
+                    <mat-icon>image</mat-icon>
+                    <a href="https://science.nasa.gov/image-detail/c62-1/" target="_blank">
+                        C62 (NGC 247) – The Needle’s Eye Galaxy
+                    </a>
+                </li>
+                <li>
+                    <mat-icon>public</mat-icon>
+                    <a href="https://science.nasa.gov/resource/proxima-b-3d-model/" target="_blank">
+                        Proxima-B 3D Model
+                    </a>
+                </li>
+                <li>
+                    <mat-icon>tungsten</mat-icon>
+                    <a href="https://science.nasa.gov/3d-resources/james-webb-space-telescope-b/" target="_blank">
+                        James Webb Space Telescope (B)
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="credits__section">
+            <h3><mat-icon>school</mat-icon> Research & Publications</h3>
+            <ul>
+                <li>
+                    <mat-icon>description</mat-icon>
+                    <a href="https://academic.oup.com/mnras/article/513/4/5505/6472249?login=false" target="_blank">
+                        Exoplanet Detection with Machine Learning (MNRAS, 2022)
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <mat-divider></mat-divider>
+
+        <div class="credits__footer">
+            <p>
+                <mat-icon>rocket_launch</mat-icon>
+                Created for the <strong>NASA Space Apps Challenge 2025 – Montevideo</strong> by Team Gualter.
+            </p>
+            <a mat-stroked-button routerLink="/home" class="btn-outline">
+                <mat-icon>home</mat-icon>
+                Back to Home
+            </a>
+        </div>
+    </div>
+</section>

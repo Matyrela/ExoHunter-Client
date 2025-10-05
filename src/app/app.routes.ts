@@ -23,4 +23,10 @@ export const routes: Routes = [
         loadComponent: () =>
             import('./pages/learn-more/learn-more.component').then((m) => m.LearnMoreComponent),
     },
+    { path: 'credits', 
+        loadComponent: () =>
+            import('./pages/credits/credits').then((m) => m.CreditsComponent)
+    },
+    { path: '**', redirectTo: 'home' }
+
 ];
