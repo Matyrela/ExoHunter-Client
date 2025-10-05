@@ -64,6 +64,55 @@
                 </div>
             </div>
 
+            <!-- CSV FORMAT INFO -->
+            <div class="csv-info-section">
+                <button mat-button class="info-toggle" (click)="showCsvInfo = !showCsvInfo">
+                    <mat-icon>{{ showCsvInfo ? 'expand_less' : 'expand_more' }}</mat-icon>
+                    What should my CSV contain?
+                    <span class="info-badge">{{ csvColumns.length }} columns</span>
+                </button>
+
+                @if (showCsvInfo) {
+                    <div class="csv-info-content">
+                        <p class="info-description">
+                            Your CSV file should contain exoplanet and stellar system data with the following columns.
+                            All columns are expected but the model can handle some missing values:
+                        </p>
+
+                        <div class="columns-grid">
+                            @for (column of csvColumns; track column.name) {
+                                <div class="column-card" [attr.data-category]="column.category">
+                                    <div class="column-header">
+                                        <mat-icon>{{ column.icon }}</mat-icon>
+                                        <span class="column-name">{{ column.name }}</span>
+                                        <span class="column-category">{{ column.category }}</span>
+                                    </div>
+                                    <p class="column-description">{{ column.description }}</p>
+                                    @if (column.units) {
+                                        <span class="column-units">Units: {{ column.units }}</span>
+                                    }
+                                </div>
+                            }
+                        </div>
+
+                        <div class="format-notes">
+                            <div class="note-item">
+                                <mat-icon>info</mat-icon>
+                                <span>CSV files should use comma separators and include headers</span>
+                            </div>
+                            <div class="note-item">
+                                <mat-icon>check_circle</mat-icon>
+                                <span>Missing values are handled automatically by the model</span>
+                            </div>
+                            <div class="note-item">
+                                <mat-icon>warning</mat-icon>
+                                <span>Column names must match exactly (case sensitive)</span>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
             @if (filePreview) {
             <div class="file-preview">
                 <h4>Preview</h4>

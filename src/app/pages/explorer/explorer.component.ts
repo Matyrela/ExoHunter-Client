@@ -62,6 +62,151 @@ export class ExplorerComponent {
   // Drag & Drop properties
   isDragOver = false;
 
+  // CSV Info properties
+  showCsvInfo = false;
+  csvColumns = [
+    {
+      name: 'sy_snum',
+      description: 'Number of stars in the system',
+      category: 'System',
+      icon: 'brightness_1',
+      units: null
+    },
+    {
+      name: 'sy_pnum',
+      description: 'Number of planets detected in the system',
+      category: 'System',
+      icon: 'public',
+      units: null
+    },
+    {
+      name: 'pl_orbper',
+      description: 'Orbital period',
+      category: 'Planet',
+      icon: 'sync',
+      units: 'days'
+    },
+    {
+      name: 'pl_orbsmax',
+      description: 'Semi-major axis (average distance from the star)',
+      category: 'Planet',
+      icon: 'straighten',
+      units: 'AU'
+    },
+    {
+      name: 'pl_orbeccen',
+      description: 'Orbital eccentricity (how elliptical the orbit is)',
+      category: 'Planet',
+      icon: 'radio_button_unchecked',
+      units: null
+    },
+    {
+      name: 'pl_rade',
+      description: 'Planet radius',
+      category: 'Planet',
+      icon: 'circle',
+      units: 'Earth radii'
+    },
+    {
+      name: 'pl_bmasse',
+      description: 'Planet mass',
+      category: 'Planet',
+      icon: 'fitness_center',
+      units: 'Earth masses'
+    },
+    {
+      name: 'pl_insol',
+      description: 'Stellar irradiance received by the planet',
+      category: 'Planet',
+      icon: 'wb_sunny',
+      units: 'Earth units'
+    },
+    {
+      name: 'pl_eqt',
+      description: 'Planet equilibrium temperature',
+      category: 'Planet',
+      icon: 'thermostat',
+      units: 'Kelvin'
+    },
+    {
+      name: 'ttv_flag',
+      description: 'Transit Timing Variation flag (0 = not detected, 1 = detected)',
+      category: 'Detection',
+      icon: 'flag',
+      units: null
+    },
+    {
+      name: 'st_teff',
+      description: 'Stellar effective temperature',
+      category: 'Star',
+      icon: 'local_fire_department',
+      units: 'Kelvin'
+    },
+    {
+      name: 'st_rad',
+      description: 'Stellar radius',
+      category: 'Star',
+      icon: 'brightness_7',
+      units: 'solar radii'
+    },
+    {
+      name: 'st_mass',
+      description: 'Stellar mass',
+      category: 'Star',
+      icon: 'scale',
+      units: 'solar masses'
+    },
+    {
+      name: 'st_met',
+      description: 'Stellar metallicity (chemical composition relative to the Sun)',
+      category: 'Star',
+      icon: 'science',
+      units: null
+    },
+    {
+      name: 'st_logg',
+      description: 'Stellar surface gravity',
+      category: 'Star',
+      icon: 'expand',
+      units: null
+    },
+    {
+      name: 'sy_dist',
+      description: 'Distance from Earth',
+      category: 'System',
+      icon: 'explore',
+      units: 'parsecs'
+    },
+    {
+      name: 'sy_vmag',
+      description: 'Visual magnitude (brightness in visible spectrum)',
+      category: 'System',
+      icon: 'visibility',
+      units: null
+    },
+    {
+      name: 'sy_kmag',
+      description: 'Infrared magnitude (K band)',
+      category: 'System',
+      icon: 'waves',
+      units: null
+    },
+    {
+      name: 'sy_gaiamag',
+      description: 'Magnitude measured by the Gaia mission',
+      category: 'System',
+      icon: 'satellite',
+      units: null
+    },
+    {
+      name: 'hostname',
+      description: 'Name or identifier of the stellar system (e.g., Kepler-22, TOI-700)',
+      category: 'System',
+      icon: 'badge',
+      units: null
+    }
+  ];
+
   onFileSelected(event: any) {
     this.selectedFile = event.target.files[0];
     if (this.selectedFile) {

@@ -332,6 +332,172 @@
 
 /* Removed old .file-input span styles - now using .selected-file class */
 
+/* ==== CSV INFO SECTION ==== */
+.csv-info-section {
+    margin: 2rem 0;
+    border: 1px solid rgba(148, 163, 209, 0.15);
+    border-radius: 12px;
+    overflow: hidden;
+    background: rgba(15, 22, 48, 0.4);
+}
+
+.info-toggle {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    background: rgba(124, 92, 255, 0.08);
+    border: none;
+    color: #e8edff;
+    font-weight: 600;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    justify-content: flex-start;
+
+    &:hover {
+        background: rgba(124, 92, 255, 0.15);
+        color: #fff;
+    }
+
+    mat-icon {
+        color: #7c5cff;
+        font-size: 1.2rem;
+    }
+
+    .info-badge {
+        margin-left: auto;
+        background: rgba(90, 166, 255, 0.2);
+        color: #5aa6ff;
+        padding: 0.25rem 0.75rem;
+        border-radius: 12px;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+}
+
+.csv-info-content {
+    padding: 1.5rem;
+    animation: fadeIn 0.3s ease;
+
+    .info-description {
+        color: #c3cbff;
+        margin-bottom: 1.5rem;
+        line-height: 1.6;
+        font-size: 0.95rem;
+    }
+}
+
+.columns-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.column-card {
+    background: rgba(124, 92, 255, 0.05);
+    border: 1px solid rgba(148, 163, 209, 0.15);
+    border-radius: 8px;
+    padding: 1rem;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: rgba(124, 92, 255, 0.1);
+        border-color: rgba(148, 163, 209, 0.3);
+        transform: translateY(-2px);
+    }
+
+    &[data-category="Planet"] {
+        border-left: 3px solid #5aa6ff;
+    }
+
+    &[data-category="Star"] {
+        border-left: 3px solid #ff6b6b;
+    }
+
+    &[data-category="System"] {
+        border-left: 3px solid #4ecdc4;
+    }
+
+    &[data-category="Detection"] {
+        border-left: 3px solid #ffe066;
+    }
+}
+
+.column-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    mat-icon {
+        font-size: 1.1rem;
+        color: #7c5cff;
+    }
+
+    .column-name {
+        font-family: 'Courier New', monospace;
+        font-weight: 600;
+        color: #e8edff;
+        background: rgba(124, 92, 255, 0.1);
+        padding: 0.2rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.85rem;
+    }
+
+    .column-category {
+        margin-left: auto;
+        font-size: 0.75rem;
+        color: #94a3d1;
+        background: rgba(148, 163, 209, 0.1);
+        padding: 0.2rem 0.5rem;
+        border-radius: 8px;
+        font-weight: 500;
+    }
+}
+
+.column-description {
+    color: #c3cbff;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin: 0.5rem 0;
+}
+
+.column-units {
+    font-size: 0.8rem;
+    color: #94a3d1;
+    font-style: italic;
+    background: rgba(90, 166, 255, 0.1);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.format-notes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1rem;
+    background: rgba(90, 166, 255, 0.05);
+    border-radius: 8px;
+    border-left: 4px solid #5aa6ff;
+}
+
+.note-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #c3cbff;
+    font-size: 0.9rem;
+
+    mat-icon {
+        font-size: 1rem;
+        color: #5aa6ff;
+    }
+}
+
 .file-preview {
     margin-top: 2rem;
     padding: 1.5rem;
