@@ -3,40 +3,82 @@
     <div class="metrics__glow"></div>
 
     <div class="metrics__content">
-        <div class="metrics__eyebrow">
-            <mat-icon>show_chart</mat-icon>
-            Model Evaluation
-        </div>
-
         <h1 class="metrics__title">
-            Model Performance & Insights
-            <span class="metrics__title-fade">Understanding How ExoHunter Learns</span>
+            Model Metrics & Performance
+            <span class="metrics__title-fade">Machine Learning Pipeline Overview</span>
         </h1>
 
         <p class="metrics__intro">
-            These metrics summarize the model’s accuracy, precision, recall, and key performance aspects.
-            Each visualization is derived from the trained LightGBM and CNN models using NASA mission data.
+            ExoHunter’s model integrates complementary AI approaches — combining statistical precision and deep learning
+            pattern
+            recognition — to classify exoplanets from official NASA data with scientific rigor and transparency.
         </p>
 
-        <div class="metrics__grid">
-            <mat-card *ngFor="let chart of charts" class="metric-card">
-                <img [src]="chart.img" [alt]="chart.title" class="metric-img" />
-                <mat-divider></mat-divider>
-                <div class="metric-info">
-                    <h3>{{ chart.title }}</h3>
-                    <p>{{ chart.description }}</p>
-                </div>
-            </mat-card>
+        <!-- PIPELINE SECTION -->
+        <div class="pipeline">
+            <div class="pipeline__card">
+                <mat-icon class="pipeline__icon">tune</mat-icon>
+                <h4>Phase 1<br />Gradient Boosting</h4>
+                <p>
+                    LightGBM model with log₁₊ normalization and host-group validation.
+                </p>
+            </div>
+
+            <div class="pipeline__card">
+                <mat-icon class="pipeline__icon">auto_graph</mat-icon>
+                <h4>Phase 2<br />1D-CNN</h4>
+                <p>
+                    Learns temporal brightness variations typical of planetary transits.
+                </p>
+            </div>
+
+            <div class="pipeline__card">
+                <mat-icon class="pipeline__icon">merge</mat-icon>
+                <h4>Phase 3<br />Ensemble</h4>
+                <p>
+                    Weighted fusion of both models for stable and robust performance.
+                </p>
+            </div>
+        </div>
+
+        <mat-divider></mat-divider>
+
+        <!-- FINAL PERFORMANCE -->
+        <div class="metrics__section">
+            <h3><mat-icon>insights</mat-icon> Final Model Performance</h3>
+            <p>
+                ExoHunter’s ensemble achieves <strong>94.3% accuracy</strong>, <strong>98% recall</strong>, and an
+                <strong>AUC of 0.97</strong> — validated exclusively on <strong>official NASA datasets</strong>.
+                No synthetic or fabricated data was introduced during training, ensuring scientific authenticity and
+                reproducibility.
+            </p>
+
+            <div class="metrics__images">
+                <mat-card class="graph-card">
+                    <img src="/assets/metrics/confusion_matrix.png" alt="Confusion Matrix" />
+                    <p>Confusion Matrix (Ensemble)</p>
+                </mat-card>
+
+                <mat-card class="graph-card">
+                    <img src="/assets/metrics/roc_curve.png" alt="ROC Curve" />
+                    <p>ROC Curve Comparison</p>
+                </mat-card>
+
+                <mat-card class="graph-card">
+                    <img src="/assets/metrics/feature_importance.png" alt="Feature Importance" />
+                    <p>Feature Importance (LightGBM)</p>
+                </mat-card>
+            </div>
         </div>
 
         <div class="metrics__footer">
-            <a mat-stroked-button routerLink="/home" class="btn-secondary">
+            <a mat-flat-button color="primary" routerLink="/explorer" class="btn-primary">
+                <mat-icon>travel_explore</mat-icon>
+                Explore Datasets
+            </a>
+            <a mat-flat-button routerLink="/home" class="btn-secondary">
                 <mat-icon>home</mat-icon>
                 Back to Home
-            </a>
-            <a mat-flat-button routerLink="/explorer" color="primary" class="btn-primary">
-                <mat-icon>travel_explore</mat-icon>
-                Go to Explorer
             </a>
         </div>
     </div>

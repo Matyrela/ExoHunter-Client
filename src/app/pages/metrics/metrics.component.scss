@@ -3,24 +3,21 @@
 .metrics {
     position: relative;
     min-height: 100vh;
-    padding: 5rem 1rem;
+    padding: 6rem 1rem;
     text-align: center;
-    background: linear-gradient(to bottom, rgba(11, 15, 30, 0.98), rgba(11, 15, 30, 1));
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     color: #e8edff;
     font-family: 'Rajdhani', sans-serif;
+    background: linear-gradient(to bottom, rgba(11, 15, 30, 0.97), rgba(11, 15, 30, 1));
+    overflow: hidden;
 }
 
 .metrics__bg {
     position: absolute;
     inset: 0;
     background-image:
-        radial-gradient(1px 1px at 10% 20%, rgba(255, 255, 255, 0.35) 40%, transparent 41%),
-        radial-gradient(1px 1px at 80% 70%, rgba(255, 255, 255, 0.25) 40%, transparent 41%);
-    opacity: 0.3;
+        radial-gradient(1px 1px at 10% 20%, rgba(255, 255, 255, 0.25) 40%, transparent 41%),
+        radial-gradient(1px 1px at 80% 70%, rgba(255, 255, 255, 0.2) 40%, transparent 41%);
+    opacity: 0.25;
     pointer-events: none;
 }
 
@@ -38,28 +35,13 @@
 .metrics__content {
     position: relative;
     z-index: 2;
-    max-width: 1200px;
-}
-
-.metrics__eyebrow {
-    display: inline-flex;
-    gap: 0.6rem;
-    align-items: center;
-    padding: 0.4rem 0.8rem;
-    border-radius: 999px;
-    background: rgba(124, 92, 255, 0.15);
-    border: 1px solid rgba(148, 163, 209, 0.18);
-    color: #a99eff;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 0.9rem;
-    margin-bottom: 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .metrics__title {
     font-family: 'Orbitron', sans-serif;
-    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-size: clamp(2rem, 5vw, 3rem);
     font-weight: 800;
     color: #fff;
     margin-bottom: 0.4rem;
@@ -80,93 +62,150 @@
 
 .metrics__intro {
     max-width: 800px;
-    margin: 1rem auto 3rem;
+    margin: 1.5rem auto 3rem;
     color: #c3cbff;
     font-size: 1.1rem;
     line-height: 1.6;
 }
 
-.metrics__grid {
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+/* ==== PIPELINE CARDS ==== */
+.pipeline {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    flex-wrap: wrap;
     margin-bottom: 3rem;
 }
 
-.metric-card {
-    background: rgba(18, 23, 53, 0.85);
+.pipeline__card {
+    background: linear-gradient(180deg, rgba(18, 23, 53, 0.8), rgba(14, 20, 40, 0.9));
+    border: 1px solid rgba(147, 121, 255, 0.18);
+    border-radius: 14px;
+    padding: 1.5rem 1rem;
+    width: 280px;
+    color: #e8edff;
+    box-shadow: 0 4px 18px rgba(20, 25, 60, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.pipeline__card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(90, 166, 255, 0.4);
+}
+
+.pipeline__icon {
+    font-size: 32px;
+    color: #9a80ff;
+    margin-bottom: 0.5rem;
+}
+
+.pipeline__card h4 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0.2rem 0 0.5rem;
+}
+
+.pipeline__card p {
+    color: #b0b8e0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+/* ==== METRICS SECTION ==== */
+.metrics__section {
+    margin-top: 3rem;
+    text-align: center;
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.6rem;
+        font-family: 'Orbitron', sans-serif;
+        color: #9a80ff;
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        color: #c3cbff;
+        font-size: 1rem;
+        max-width: 800px;
+        margin: 0 auto 2rem;
+        line-height: 1.6;
+    }
+}
+
+/* ==== GRAPHS ==== */
+.metrics__images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.graph-card {
+    background: rgba(18, 23, 53, 0.75);
     border: 1px solid rgba(148, 163, 209, 0.18);
     border-radius: 16px;
-    box-shadow: 0 8px 25px rgba(20, 25, 60, 0.55);
     padding: 1rem;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    transition: transform 0.3s ease;
 }
 
-.metric-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 12px 35px rgba(90, 166, 255, 0.4);
-}
-
-.metric-img {
+.graph-card img {
     width: 100%;
-    border-radius: 10px;
-    margin-bottom: 0.8rem;
+    border-radius: 12px;
+    margin-bottom: 0.5rem;
 }
 
-.metric-info h3 {
-    color: #fff;
-    font-family: 'Orbitron', sans-serif;
-}
-
-.metric-info p {
+.graph-card p {
+    font-size: 0.9rem;
     color: #c3cbff;
-    font-size: 0.95rem;
 }
 
+/* ==== FOOTER BUTTONS ==== */
 .metrics__footer {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
-}
-
-.btn-primary,
-.btn-secondary {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.6rem;
-    padding: 0.6rem 1.2rem;
-    font-size: 1rem;
-    font-weight: 600;
-    border-radius: 10px;
-    text-transform: uppercase;
-    transition: all 0.3s ease;
+    margin-top: 3rem;
 }
 
 .btn-primary {
     background: linear-gradient(90deg, #7c5cff, #5aa6ff);
     box-shadow: 0 0 25px rgba(90, 166, 255, 0.4);
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
     box-shadow: 0 0 35px rgba(90, 166, 255, 0.6);
 }
 
 .btn-secondary {
-    background: rgba(45, 85, 150, 0.4);
-    border: 1px solid rgba(147, 121, 255, 0.3);
-    color: #e8edff;
-    box-shadow: 0 0 12px rgba(90, 166, 255, 0.15);
+    background: rgba(45, 60, 110, 0.6);
+    border: 1px solid rgba(147, 121, 255, 0.25);
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
 }
 
 .btn-secondary:hover {
     transform: scale(1.05);
-    background: rgba(124, 92, 255, 0.15);
-    border-color: #5aa6ff;
-    box-shadow: 0 0 25px rgba(90, 166, 255, 0.45);
+    background: rgba(124, 92, 255, 0.25);
+    box-shadow: 0 0 20px rgba(90, 166, 255, 0.4);
 }
 
+/* ==== ANIMATIONS ==== */
 @keyframes fade-glow {
     0% {
         background-position: 0% 50%;
