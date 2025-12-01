@@ -1,0 +1,7002 @@
+[
+    {
+        "id": "K2-165",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9813552545985875,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1947.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.17126832671088452,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02943.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8804496670261619,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2424.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.2822368943221353,
+        "column_id": "hostname"
+    },
+    {
+        "id": "879.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.030819822007530754,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03512.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0034473482013697094,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02967.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9485935964652109,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00931.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5179304120645342,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07150.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.004846570607111937,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-113",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9947852103436845,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01970.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9661748790735216,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06332.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.014124061526159037,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1479.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.35556107565478845,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00934.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9713603021793835,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2337.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9527265242957237,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01625.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.10882982141984243,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01305.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.936545269212623,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-133",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9778916602195611,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03781.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.004101285153532856,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02327.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9293976214260443,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1118.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03946518476501476,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02665.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.022874893755294497,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04983.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04830795065639849,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05052.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03326497810170306,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00940.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8800433397708143,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00291.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9690584387876023,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01831.04",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.946701781314425,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5576.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009344365540033305,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01299.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.763648083462315,
+        "column_id": "hostname"
+    },
+    {
+        "id": "114.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9247848738874438,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1596.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.1393704965756088,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07349.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0038521448351011025,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-25",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9197698350339039,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2317.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7152094876614433,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00523.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9122242222939939,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03059.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.030508869813202433,
+        "column_id": "hostname"
+    },
+    {
+        "id": "3595.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.3706004791878198,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07124.02",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03452513006186748,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02280.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9841181335072664,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01929.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8924456756088032,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07896.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.10944208590684545,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05768.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4800962249652206,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07614.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.019699127800907913,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04668.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4699209049744553,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04165.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0033879835259916394,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1278.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.3153879892438079,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02705.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9806571352101244,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01593.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8547676437275435,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 228836835",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8899359197930972,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01218.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8664132377827398,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02276.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.013646205147565732,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04360.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.644127484059106,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03629.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.002859238583692448,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1471.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9650821035530721,
+        "column_id": "hostname"
+    },
+    {
+        "id": "685.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7114414998738804,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01339.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9358899495667121,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01685.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.668638203939102,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06871.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.07012400927830595,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01605.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0210674237322817,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04299.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0071998043482787285,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05201.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.013532716474126362,
+        "column_id": "hostname"
+    },
+    {
+        "id": "826.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7888340364491175,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02466.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5530950522741929,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04118.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03561877118788386,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05093.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.041703789223856626,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01369.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8326645515196892,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01600.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.026971122429309293,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-117",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9895321405100014,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01108.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5794617381083097,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03362.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.007513574430488192,
+        "column_id": "hostname"
+    },
+    {
+        "id": "360.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04346732767076804,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03127.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9790049660267168,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00895.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.294677898230256,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07768.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.036310135133604704,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-171",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9741143592502103,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04009.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9407719180940484,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02646.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.01915780393005098,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04297.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.23688105096467893,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02882.02",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.05192044845835103,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02451.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8986277644530962,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00306.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9306322003801384,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07967.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.057127865745135675,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K08008.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.021894385549551445,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K08028.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0025908482793166,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4225.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.15621485758941478,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00159.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9669544495068749,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01278.04",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6043190144548803,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-195",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9912439171949634,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06791.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0047986279513671775,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05586.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.556571916759861,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01165.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9430138249325158,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07910.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6577735718976577,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 213951550",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.033451292739539805,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02555.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6548165157361293,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2579.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.576444900699992,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4838.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.061020663458935295,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02487.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9632896497413665,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07443.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.15713764307144576,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06286.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.002887470329779847,
+        "column_id": "hostname"
+    },
+    {
+        "id": "3358.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.039085691357955366,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01539.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.019196062408677106,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06787.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.014651336647454494,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04553.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.015125819250501766,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04987.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8154364145130557,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01532.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9752633072831226,
+        "column_id": "hostname"
+    },
+    {
+        "id": "GJ 9827",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9854152980088732,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01012.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.10265783251821478,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01572.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.764198404419757,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01436.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7156188079962175,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1427.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5553553903729738,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03378.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03115306884778401,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01679.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.008090066175888248,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00836.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.024335242892597482,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05599.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.017675399819546214,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04475.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4248215842205499,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04201.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.016176886835912552,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04547.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04059209500026137,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-35",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.986414755837532,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1723.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9646487518256642,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01338.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8086878289890973,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4602.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6815087147138236,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00594.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.01727235049220151,
+        "column_id": "hostname"
+    },
+    {
+        "id": "988.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8899230615790198,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00309.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.02664204198278705,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1309.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009950638877653574,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03648.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.008433920504392003,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06770.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.012955364506674692,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06337.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0032792872231574557,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01783.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9244145683814,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K08247.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.013162922054609318,
+        "column_id": "hostname"
+    },
+    {
+        "id": "HD 3167",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6924599108561124,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-413",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.970869105991884,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01859.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.010026811277994268,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4605.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4171037422408476,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00456.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9274420843942399,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 211839430",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.022881519776911358,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-218",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9909867532104419,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06400.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.004546415251905582,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1921.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5232179785721609,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01731.02",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.23601500551828483,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01694.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.020776492209063753,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02617.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6054790702790946,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-290",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9920769028925027,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00650.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.950188177475282,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07537.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009659399254244042,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00112.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8719416860164243,
+        "column_id": "hostname"
+    },
+    {
+        "id": "3948.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03867327757844009,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07273.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.011115109720384347,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01569.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9607001815342031,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03008.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5294833790787105,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02483.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5406800226471037,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01132.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.46887578679338293,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1199.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8717347789200435,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04518.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.008586084950549648,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06831.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.003354672113204987,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03449.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.008456592787993732,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02349.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.033846754836661136,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01914.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9712708366635026,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4536.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.177077177904556,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00285.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7052140554702512,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-416",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9900857182314975,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2017.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4960250170235015,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2206.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.13039002002486455,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02545.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7519633782257942,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05313.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005502460468456787,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01724.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9330629920030987,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05808.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.015158323236983257,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02649.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6736879779855854,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03887.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.006907527718059369,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00952.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9484523587157252,
+        "column_id": "hostname"
+    },
+    {
+        "id": "HATS-9",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9872765752350061,
+        "column_id": "hostname"
+    },
+    {
+        "id": "184.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.015595630484713907,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00274.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8915929717700718,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07792.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.014348597888721098,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03279.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9466027845931525,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-404",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.964922039310597,
+        "column_id": "hostname"
+    },
+    {
+        "id": "387.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7144120403771287,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07265.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.028576183342504273,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07419.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.006627031277946573,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01052.04",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9643652672765424,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04097.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8140903802764088,
+        "column_id": "hostname"
+    },
+    {
+        "id": "7067.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4347919183035694,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06691.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.27992407916619877,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00532.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7430369741886856,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06248.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005334987967626044,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04047.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.010612724516003055,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03113.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.3400513127256924,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05788.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.025481547730550138,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2285.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9408330396865843,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00704.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.947588720050175,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07277.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.3706569737607014,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02716.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.17882986327710784,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00082.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9587491817708178,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05161.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009173307692817838,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07608.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.05758939693621666,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00244.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9207009812213504,
+        "column_id": "hostname"
+    },
+    {
+        "id": "431.02",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.18532910297611022,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02174.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9191637161721702,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00282.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6421976353568244,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01957.02",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.023798150266130448,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06196.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0028906373355893147,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-374",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9844442504749732,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02535.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.930438448055128,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03833.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.2802361120080753,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02867.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.022527710446936675,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00031.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0033804958788614535,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2120.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9588010932667068,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00433.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8349238870494471,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02391.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.01223238224378171,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5068.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9148687012820514,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00932.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.859911646253719,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04100.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.019958514656793484,
+        "column_id": "hostname"
+    },
+    {
+        "id": "550.02",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.012727121790272102,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03607.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.002526628605002678,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07972.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03459348205684593,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07331.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.004031506441114851,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-215",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9834539071680795,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00459.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9371869337354598,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00787.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9414372895941188,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-287",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9904654502715693,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4207.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.10116511372957251,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01987.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0220450399545832,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00084.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.843283179800803,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4475.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8148625990639056,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06853.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.1737431992235755,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07747.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0028215970027108176,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07098.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.00555080274500829,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02408.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5812442683194099,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06712.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009641838017937414,
+        "column_id": "hostname"
+    },
+    {
+        "id": "3572.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.007594597322134732,
+        "column_id": "hostname"
+    },
+    {
+        "id": "540.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7859243436981751,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05053.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.36063917293804415,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1097.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9197996191212707,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01354.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.024133632506580953,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07994.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.06551420294471524,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-265",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9904499353744267,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1201.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9644117218941669,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-62",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8781916410045629,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07996.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03786331041480962,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05157.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.011978640541325683,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1038.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.05828836839118213,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02089.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.021556940810893852,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06696.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.003663467088009836,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 251292508",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009603012279077495,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07309.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005504560851756852,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05742.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0031403203239286598,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05691.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5076117070154896,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02361.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8898961018989779,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04888.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0052848714930782015,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01999.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.002649786851011775,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01905.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.783489159231999,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04708.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.01744938948221865,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5384.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.16517799649573928,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06675.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.14984242597226352,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 211604981",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.025638772436936557,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00563.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9841927077295283,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5381.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.07834588010368658,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06445.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005749865092138642,
+        "column_id": "hostname"
+    },
+    {
+        "id": "3422.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5558559490371104,
+        "column_id": "hostname"
+    },
+    {
+        "id": "836.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9185003046071425,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03538.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0036041884114024116,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07155.02",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0029733438224561148,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00719.04",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6530494610589284,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2260.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.35222128889538556,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02431.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7552039890404968,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06434.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.003862078820550165,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-268",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9938496362365989,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00885.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.016729124195476255,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K08214.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0033804958788614535,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4522.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.16468315078513637,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07381.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005593882636838692,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04692.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.01855453355358689,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05593.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.3860814219788974,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1600.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.12168252532448244,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07047.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0033811974695277342,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04164.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04525137828006022,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00752.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9771785843084958,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02403.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9455465012564956,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00326.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.011754519758571107,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02119.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7511451917236365,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07698.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.020988339635093063,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 211920811",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.05953743885472977,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00734.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9473708694104566,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1993.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.07380210788892977,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03283.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.008803306367418544,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 212154158",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.00850488738470602,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 211955798",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.014204886965186162,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2771.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.40408454037591013,
+        "column_id": "hostname"
+    },
+    {
+        "id": "3636.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7281759621764043,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1460.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.2580001266107946,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00707.05",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9427781798307215,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06814.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0027600023416789626,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04185.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8736667420434017,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06870.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0032300190808595723,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4476.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5225724917784423,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-224",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.992148633042466,
+        "column_id": "hostname"
+    },
+    {
+        "id": "3808.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.07567708807013265,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05647.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.02842076671458226,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04477.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8400852236646902,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1971.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9484913978072615,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03858.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.01766260346631221,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07326.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0033334121203778817,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1721.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4508932971711214,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02148.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9725206523132822,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2064.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4977954305465983,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1897.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.12763013142692706,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02746.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.004810326104136364,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05615.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0028906373355893147,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 211885185",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.013135035594158781,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-337",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9947853127310802,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00612.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9454692842898934,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-229",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9910013507112587,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05993.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.020522122383367244,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06540.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04602043287188872,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06543.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.002504342188902509,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01777.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009922062121855865,
+        "column_id": "hostname"
+    },
+    {
+        "id": "175.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9227816235165909,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07651.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.11633475162743906,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01785.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.17703498636014742,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05601.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.155408809881782,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5440.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8108302550981847,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02784.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.028033774252605954,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1237.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8432828879606383,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1133.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.06380486441894241,
+        "column_id": "hostname"
+    },
+    {
+        "id": "174.04",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5698468780509623,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01229.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0055319839119734775,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1238.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7323470103449479,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02588.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9603561272750398,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2442.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.23810809201009114,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02869.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5861028680559368,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2643.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.919023491421329,
+        "column_id": "hostname"
+    },
+    {
+        "id": "238.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7486755977180816,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02411.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9099783822979662,
+        "column_id": "hostname"
+    },
+    {
+        "id": "118.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8471789441181883,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02306.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.07309967323975225,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04501.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8558373453156991,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02780.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5969737653589058,
+        "column_id": "hostname"
+    },
+    {
+        "id": "125.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9013592376840349,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05744.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0047359918243841705,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02328.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.941102767964637,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07108.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.00553038511568111,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04571.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9529760801154278,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1223.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6749209778028978,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4320.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7565090137908697,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07772.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.15999705021968536,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5796.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.10820414854505069,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02987.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.02005290605581023,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05370.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.008143677882886302,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01720.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9127776085605716,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04677.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.060349518939387184,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5212.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8366526561658225,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02558.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009253987726879603,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00164.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.191747075706273,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00764.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8328601656826204,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02342.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9500617702969187,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05505.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.047307882502142524,
+        "column_id": "hostname"
+    },
+    {
+        "id": "282.04",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8616319259651812,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02672.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9458921241512033,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01052.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9634326873821295,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01951.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4347371953480828,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07549.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.003582108212008422,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06503.02",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.006588863677420556,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01550.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.008019096571031835,
+        "column_id": "hostname"
+    },
+    {
+        "id": "742.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.013011487638400043,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00758.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9663798628962266,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00840.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6692073460330349,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4623.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.47224880456050505,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00830.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4449419573390214,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05827.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.691106051732978,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00330.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9367686313762266,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02799.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.007413161648158818,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-199",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.986861033999775,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01927.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.017675399819546214,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05611.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.030992631281506304,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01989.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8605225771333445,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04409.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9196771150245849,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04225.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009510144094837728,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04836.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0031108985924547285,
+        "column_id": "hostname"
+    },
+    {
+        "id": "3795.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.17704438719140528,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00738.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8214761431613956,
+        "column_id": "hostname"
+    },
+    {
+        "id": "7476.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8809856087556892,
+        "column_id": "hostname"
+    },
+    {
+        "id": "6038.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4381996535100452,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00467.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.48074719992966747,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00435.05",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.961020222298352,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01763.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.2837521178090157,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1329.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.010726344999216911,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00770.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.10172578308199394,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K08084.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.034426077366667085,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03677.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005340253187353357,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04866.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.011954806827548917,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02981.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9341389328239874,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-169",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9881846552229662,
+        "column_id": "hostname"
+    },
+    {
+        "id": "625.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.20826254164319755,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02317.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8751075419684539,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00260.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.917697938629612,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00490.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9430237059323868,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05293.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.00357797159331436,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05914.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.06901354519883107,
+        "column_id": "hostname"
+    },
+    {
+        "id": "141.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6937303478865754,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1132.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009020829705207751,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1608.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.07575862835531004,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00298.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.862911147793826,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02638.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8959752684422355,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04611.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.09476050546335071,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04995.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.015158323236983257,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 211425822",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.026345858338598725,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05084.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8742092199024611,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2651.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.05177396269081926,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03437.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9623082018694523,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07161.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.1398039854949802,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1688.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.09108455334391226,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5301.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7049138580067746,
+        "column_id": "hostname"
+    },
+    {
+        "id": "716.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.2660581920636589,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02871.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9398711118531093,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00541.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8991235550800118,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05724.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6311038966329606,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1283.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.3748246209932242,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 211920462",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.01656980904924141,
+        "column_id": "hostname"
+    },
+    {
+        "id": "704.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9673891344060479,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07275.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.006933167135302016,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1547.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.33904137727202766,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04237.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.11336729841357411,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2156.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4238284367017764,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05683.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.00582027208959244,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03096.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7422014394887545,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07051.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.08912506516204947,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K08038.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.021367475065755537,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02659.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.32644568043093863,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06235.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.002526628605002678,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 203581469",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9875221254861235,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00847.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9795153148415272,
+        "column_id": "hostname"
+    },
+    {
+        "id": "135.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.24053845621649145,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07697.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.05288363266031477,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04905.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.22349914944399626,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03506.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0050278476209274095,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00085.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9480528017458286,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00568.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4266567980589889,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 211651743",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.006163055999515572,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01194.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.900794858898022,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02212.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9772964106523702,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2623.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.06273217615913,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01153.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.002493787922167682,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06146.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0029684187251288333,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06939.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.003397810969664527,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05501.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.43668356116152185,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00452.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6748888305876042,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2198.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.19187846653909962,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5769.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6770356619323723,
+        "column_id": "hostname"
+    },
+    {
+        "id": "367.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.44968477405379664,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02438.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6636112740017714,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-233",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8303827974282612,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00402.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04896999022610899,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06986.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0053779311945027115,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04108.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.034509772008197034,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05065.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.029339612323726304,
+        "column_id": "hostname"
+    },
+    {
+        "id": "6486.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04552850982365556,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05460.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.31785745077751226,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03300.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5416666811883684,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00104.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8465756311664476,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00844.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8532137437149953,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05400.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.008824666215502522,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05797.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0032573694441225165,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02991.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.06271417391150859,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01312.02",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.016729124195476255,
+        "column_id": "hostname"
+    },
+    {
+        "id": "385.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.18188332556219478,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07556.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.015721543044925932,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-397",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9852253454064104,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02218.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.924556710998321,
+        "column_id": "hostname"
+    },
+    {
+        "id": "626.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.20485854483496008,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00834.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9861079603087933,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01390.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.15826363112467146,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04239.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4649140242650236,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02756.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6295435421152535,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01711.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9218443723491242,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05721.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.37481454225310523,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06060.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.022126524430804775,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03942.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.020981755562879022,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-239",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.98585367911344,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01454.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.004295781860220231,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01751.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.970842016549692,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00965.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.006855850820456539,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00181.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.07809468596684942,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07480.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6083771660252857,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4521.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5754155649467183,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01404.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9740662905631329,
+        "column_id": "hostname"
+    },
+    {
+        "id": "351.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7036522638224693,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5150.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.08575444961029559,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05559.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03144777903035449,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06700.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.011562401492865358,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04189.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8309269726761138,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03265.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005878150114174886,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2044.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.02796042879018544,
+        "column_id": "hostname"
+    },
+    {
+        "id": "6874.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.34535833555687195,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00046.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5227728631142504,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00571.04",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9607766629297454,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06119.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.003069662401261181,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-90",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9919037467202234,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-32",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9909972791661338,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02632.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5942433791349465,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07707.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.008608812901193983,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06346.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.1564758001626901,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03681.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6378009828227913,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1566.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.2334506612799151,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 211432946",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.012444755820681769,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02464.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.048913933939544095,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-72",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9836564991312966,
+        "column_id": "hostname"
+    },
+    {
+        "id": "6298.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6696613528963903,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4461.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.21448434069959957,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01839.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9511967440755094,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5134.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9052483344224239,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03419.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.004712258441890075,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06326.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.006748423340495754,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07757.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4602851401672167,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4634.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5643031527520839,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07364.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.034816335303191136,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04074.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03300771560030018,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00756.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8915173872109226,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05294.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.13967350289256833,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4396.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9443641701746299,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07964.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0024652484624826,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03875.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.013600900076157538,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K08075.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.20796085982934193,
+        "column_id": "hostname"
+    },
+    {
+        "id": "6979.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6738904270784054,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03304.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009851668749190093,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-87",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9948644124888194,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00245.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6691905259770526,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03642.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.00469095147506659,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07206.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.003282444563424567,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-369",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9797237725147961,
+        "column_id": "hostname"
+    },
+    {
+        "id": "644.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9007094420066365,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02891.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.32251719272069534,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06927.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.061492712645411056,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02097.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7242357021171262,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2835.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.08392628531579854,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05791.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.01412293428937549,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00920.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.912962337434974,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2571.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9600513060860251,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02626.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.91345569079008,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03539.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.003963443906098638,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1576.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4525031495496337,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1996.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.10123181949239408,
+        "column_id": "hostname"
+    },
+    {
+        "id": "6276.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6921053267400181,
+        "column_id": "hostname"
+    },
+    {
+        "id": "624.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.11350984295417271,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06137.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5287832462347373,
+        "column_id": "hostname"
+    },
+    {
+        "id": "3385.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.1767154977536654,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2863.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.018715969103233674,
+        "column_id": "hostname"
+    },
+    {
+        "id": "125.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9786599331753693,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03559.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.006536760338819393,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06874.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.14288334464972335,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06903.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0056408387809104895,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02909.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.05116523850775501,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03736.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.016112341033974797,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4946.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.014474460706436685,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02948.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9143141063870188,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02740.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.11352949682692273,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02087.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7730397410972327,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06269.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.007837174532970096,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01149.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.016835317402101077,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00314.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9625002260755298,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01581.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.48851713494012394,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02256.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9253475896756267,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00401.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8994040730747241,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00409.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.972504741928069,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01559.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.2855095317814308,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07578.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.02152440290514002,
+        "column_id": "hostname"
+    },
+    {
+        "id": "217.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03227649159832366,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03503.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.18572945100746915,
+        "column_id": "hostname"
+    },
+    {
+        "id": "725.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.05153840326395308,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2545.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9821753826992465,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02218.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9552791161521269,
+        "column_id": "hostname"
+    },
+    {
+        "id": "3085.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.02588223542076276,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03251.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.10542473057384497,
+        "column_id": "hostname"
+    },
+    {
+        "id": "6152.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0591449233944935,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07528.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.008417535238597703,
+        "column_id": "hostname"
+    },
+    {
+        "id": "410.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.05725006146853608,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01280.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.469044129160087,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05752.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.004960835834995097,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04370.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.2934118526804626,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03453.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03485886409485051,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02865.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5722291208108583,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 201238110",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8876145079206434,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01127.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.864633454169665,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07980.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.12187926653078376,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01019.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.007271384717078705,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4359.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.18035458439309368,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00092.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9383258383788503,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04200.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.003776385831748508,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01468.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4665624155398559,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04507.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4033942261330493,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00021.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0036274239013214414,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03087.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7958277882037078,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00897.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6938692047625179,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06586.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.05351245960679465,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07403.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.002820274606546902,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03372.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9073451658001556,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04070.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.22710910524856767,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02871.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9356951760403261,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4579.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9092933588707516,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01820.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9108673101893637,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04855.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.1575767581582535,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 211764373",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03696562487988239,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00360.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7054904188943873,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00535.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9263366145657107,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5821.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.16661056833843813,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03218.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.019489702795115617,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2498.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8590868631764509,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00007.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6739118602748254,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00385.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9269675905898364,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02085.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.788663966537328,
+        "column_id": "hostname"
+    },
+    {
+        "id": "6551.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9110260514262526,
+        "column_id": "hostname"
+    },
+    {
+        "id": "6693.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.22619098011574215,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02734.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9431990824604419,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04652.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.26860135956199593,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-200",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9824936396653607,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06369.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7632092297843955,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07671.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.029212288308367272,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4462.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6825459688691038,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05270.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.09840193580971981,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01542.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.033064675685260045,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00352.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.986322466802362,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05447.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009173307692817838,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01690.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.12004323291812083,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00463.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9440762864625154,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00841.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8450852052658081,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01760.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9672982159852112,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07997.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.032893879063610576,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-295",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9723777268126566,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04181.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.05847037377203849,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07134.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.13687827592271504,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2328.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5524901726476602,
+        "column_id": "hostname"
+    },
+    {
+        "id": "6130.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.39742610442615356,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02315.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9136558709914863,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07584.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0930712044170134,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02693.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8481312776588285,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5496.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9773778251440546,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05296.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0041931915696568085,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03014.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9079120397869609,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 212009427",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005196332028072283,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4265.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9326970751337665,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-110",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9852962986438718,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01196.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9636986687337017,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03350.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.004524785844582193,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01054.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.02935357188316011,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03158.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.877574802751335,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06251.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0031835731531612713,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03685.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8234312453899397,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04272.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.019792727899264312,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00713.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.004443997659672612,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04121.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8580895788339769,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1520.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04621181660208568,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02918.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.019868667684320284,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06466.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.01848212266022766,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1234.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7743175357031649,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07869.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6239667306732749,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02112.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.21809859013821342,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01538.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005825495324454766,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K08285.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.01023565529002908,
+        "column_id": "hostname"
+    },
+    {
+        "id": "7486.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7944827038430071,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04444.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7264400353897299,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03270.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.011585072295764281,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00282.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.878842847434941,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04696.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.018812211650063373,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04290.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8715144599188795,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4435.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.3527169006615431,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04536.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005238416358583762,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00123.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9663100457766203,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03715.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.004482242723458424,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00242.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.3309442921490075,
+        "column_id": "hostname"
+    },
+    {
+        "id": "164.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9293497386269367,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07242.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005143725735377461,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07629.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04971107522657645,
+        "column_id": "hostname"
+    },
+    {
+        "id": "112.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5639321436954084,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01553.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4737094684571062,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00658.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9698109843758019,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4791.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9101218359164377,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-24",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9851992322229797,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1183.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.911605228952766,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K08135.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.016116305003520147,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02320.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.041358501720469495,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05606.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.008664922174528349,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02461.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.934999594396032,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-167",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9886541832801226,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-281",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.97595071459782,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01382.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04009298737915905,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03786.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005811380764010562,
+        "column_id": "hostname"
+    },
+    {
+        "id": "996.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6211110249511973,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02559.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9108341253268478,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00612.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9355518849755097,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07526.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.004864628697214305,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04432.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.022507134572386806,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07012.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.004985299616776575,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1112.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.35710253076673065,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07771.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.021835511738037425,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04046.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.01955911759869359,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1134.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.20649497726473437,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06858.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.031291741219231235,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01795.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.020983806985084442,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02950.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.033103943928853345,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01952.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9540618978936646,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5802.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5731786853408126,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01419.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005350602036135483,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07618.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.14884296151448606,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00955.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5331190040470816,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06047.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0037849370744242102,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01440.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5570418482038721,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00850.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.742057244660541,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1444.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.09893918448361677,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03967.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.43428390880693696,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00255.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9316019274887104,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2011.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9172724540212615,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5676.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.36719226781692277,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00244.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9600443430958305,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02078.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7666550547681954,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00094.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9277783382889259,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4516.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.640478859014733,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07675.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.22708567114232261,
+        "column_id": "hostname"
+    },
+    {
+        "id": "683.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.28418463202075056,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00973.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.016484044931295305,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07233.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005061021672668557,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06028.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.006175713192156575,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00960.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.033057686615157275,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06371.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005219747626632161,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-190",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9585225099944261,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00112.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9700687079819224,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00948.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9072509801270184,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02655.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8106581516384859,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-54",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9891700225825601,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06131.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.09493439551592606,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01437.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4197889218593407,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07892.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8467647793345433,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02205.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9506689588525848,
+        "column_id": "hostname"
+    },
+    {
+        "id": "342.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04755101705621894,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01330.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4274653806841749,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05235.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04489762078815011,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05256.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009854222636217363,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 212069706",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.011371060811581193,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01265.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.011986838926819458,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06597.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.006155970795261997,
+        "column_id": "hostname"
+    },
+    {
+        "id": "3375.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0596701738092806,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01970.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.884315186400696,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04211.02",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.02704030446391517,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01363.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8467974789109673,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02127.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5685881266264137,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1246.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9742558489235978,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00796.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.011666464705250902,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03432.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9211751550636684,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1771.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6269093296108543,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 211471048",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.006009583404692025,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03465.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7609857013120959,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02075.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.37560375511414196,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00017.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8467171958573004,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-187",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.987164948313327,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01832.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.966154821675277,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03466.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005927310564682218,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02012.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9463725783736394,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06165.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0033804958788614535,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01358.04",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7877684695177201,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05179.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.007592356208664289,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1008.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0437504800834624,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06723.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04712645255055728,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02111.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9153115200795808,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01249.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005557708558692439,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5886.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.012455082035680373,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02711.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8620060354092389,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5675.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.272173545726579,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5573.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.33858729579252356,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06278.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0028223032035637756,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03528.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.003259796246689426,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02875.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.19668552297075736,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00322.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.002555739346214845,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01931.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9202442114494945,
+        "column_id": "hostname"
+    },
+    {
+        "id": "478.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04822922980615158,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2667.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.918275189536067,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05441.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.1795647774253714,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-338",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9826786773381375,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00107.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9621065021575502,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00246.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7664533568175397,
+        "column_id": "hostname"
+    },
+    {
+        "id": "460.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.15693993508299411,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 212037403",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.027581470608667526,
+        "column_id": "hostname"
+    },
+    {
+        "id": "461.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9202665814503156,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01448.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.017925984051680593,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01508.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9387393065328777,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00450.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.21853327661232855,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04870.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.021633765101754892,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-104",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9699036065948696,
+        "column_id": "hostname"
+    },
+    {
+        "id": "7458.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9183414861185311,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02582.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8835392901637377,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1795.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5980723652604036,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4533.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7653064892499001,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00232.04",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9171841814460061,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07885.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.00782215000938426,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04998.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04006441293145376,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03894.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03586705291486043,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K08010.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.00896181678701113,
+        "column_id": "hostname"
+    },
+    {
+        "id": "558.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.873795065172983,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05494.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.008824666215502522,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01608.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8869919893537231,
+        "column_id": "hostname"
+    },
+    {
+        "id": "3578.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.016335120270295853,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02257.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8721931442477764,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01060.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8698706738223307,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06442.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.002875733338822015,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01291.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03751159627386798,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07494.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04277308663519042,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03477.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.06870597106437908,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05676.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.20028430316847443,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01825.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9259902159582507,
+        "column_id": "hostname"
+    },
+    {
+        "id": "6017.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5121032408476414,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03874.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.16423346501100852,
+        "column_id": "hostname"
+    },
+    {
+        "id": "109.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7021197473513549,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00520.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9708668066490648,
+        "column_id": "hostname"
+    },
+    {
+        "id": "134.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8936497475072162,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01943.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8994937137727265,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4515.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6416281114153289,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05507.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.08084882098971169,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04083.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8189872155883829,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 206024342",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9921353764135322,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2386.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.879890447172073,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07568.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.06768469565369108,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4428.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5901883811383934,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1041.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.007347049563520797,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06780.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.003101762901688153,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02768.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5176076007408138,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01351.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.016571913267072923,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00906.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.971731032752326,
+        "column_id": "hostname"
+    },
+    {
+        "id": "657.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9116201633807549,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02498.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.829593259104714,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4467.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7243610434914873,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07311.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.031388961331113636,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02433.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7766886131021558,
+        "column_id": "hostname"
+    },
+    {
+        "id": "295.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7999226746354711,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03019.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9136358269286099,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03584.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.006365615495111547,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 203868608",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.01668111040609017,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06537.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.006255280846788739,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00577.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9800641424555456,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1266.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9622116134693579,
+        "column_id": "hostname"
+    },
+    {
+        "id": "6720.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.834823191764605,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2449.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6955144394369525,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01098.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04043600278294131,
+        "column_id": "hostname"
+    },
+    {
+        "id": "828.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6490672029904868,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04191.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.16535580241598663,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01983.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.1760690462250115,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02938.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.006819894437826915,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02567.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6120146558928055,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00828.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.024795310862673597,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02103.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.846804757216375,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07409.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.011689045676663987,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1347.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8856410416697207,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03741.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.003159854418690685,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K08255.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.007797052701910393,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01375.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.919539169135574,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06452.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.37907321787363146,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1915.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7346203411776144,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00505.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8884577476170693,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07412.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03879247748519598,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K08110.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.06724293635557742,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06340.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.04894919673273061,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02053.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9750804660487579,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07985.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005868018809354843,
+        "column_id": "hostname"
+    },
+    {
+        "id": "5096.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.2887353309212157,
+        "column_id": "hostname"
+    },
+    {
+        "id": "822.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.804844556586352,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02115.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9155248560909433,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02173.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.861296609046221,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07498.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0060164334810847335,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01425.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5824454830666402,
+        "column_id": "hostname"
+    },
+    {
+        "id": "185.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.05651503632519122,
+        "column_id": "hostname"
+    },
+    {
+        "id": "388.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.2659368202861194,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03282.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8970616926198363,
+        "column_id": "hostname"
+    },
+    {
+        "id": "3372.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.01656980904924141,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02831.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.011466034424516477,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 211644647",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009030705522057673,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02362.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9571839892577435,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06095.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0036141170318207574,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01952.04",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.938896374698856,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03348.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9616215761423456,
+        "column_id": "hostname"
+    },
+    {
+        "id": "757.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7038425669118921,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07332.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.02147105518268677,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00490.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9588848877223387,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4581.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.49630730773113096,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00157.05",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8917941451699254,
+        "column_id": "hostname"
+    },
+    {
+        "id": "3566.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.016022159437647725,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01125.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.2468897446415517,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2641.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7421925312933816,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06317.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.003532221933380555,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02032.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9602952241438626,
+        "column_id": "hostname"
+    },
+    {
+        "id": "6086.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9208862936233425,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00585.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6791148152217635,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01137.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.004596274583807301,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07274.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.003979943026964054,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06373.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.006150214612349932,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02246.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8514778602422813,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03548.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0054393266853708586,
+        "column_id": "hostname"
+    },
+    {
+        "id": "7457.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7745423615300322,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1136.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9575004449652821,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05395.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.02210910059757613,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4486.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.2655952306929552,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04920.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.12864859610752136,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02429.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.018079160481913964,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1230.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9687212298489754,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02805.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.3843512311709978,
+        "column_id": "hostname"
+    },
+    {
+        "id": "198.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9612255378402521,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03090.02",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.31082273403868393,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2240.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.05667246292629042,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1339.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9695635003865506,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-154",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9915576459056884,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2211.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8821234242105331,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02693.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8759134675476098,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06131.02",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.032390396367369914,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03327.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.011070465697790273,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05713.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009890928690345399,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04982.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.00588709522192492,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-24",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9841020925600488,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1130.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.22760932686907193,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00899.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9749203718666661,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07166.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.07523221763851144,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03064.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009632429680570653,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00536.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9699065652513612,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01997.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.928733973368809,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1348.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7360704344460692,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00460.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9655890848387478,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05453.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.2815360407208965,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1710.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8235546020890957,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04071.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4265822736822908,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01659.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8975847434526282,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02183.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9184096951840809,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03285.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6691140216749154,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01286.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.013370782537552361,
+        "column_id": "hostname"
+    },
+    {
+        "id": "338.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.3468053749423824,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01212.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9566716186222041,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1267.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6654121812125174,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07423.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005796721810663556,
+        "column_id": "hostname"
+    },
+    {
+        "id": "6269.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7901939857927915,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06901.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.01046533655848694,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K08094.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.034592166602127515,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01965.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.6131744742097881,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 212171851",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.030742188663829034,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03372.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8801218716129774,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02722.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.860128104372895,
+        "column_id": "hostname"
+    },
+    {
+        "id": "962.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009396424408893572,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01725.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9688882940096303,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00912.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9455294206658174,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02964.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8139566755862955,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02650.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8768592461657087,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04079.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.004193334846896413,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 211759163",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005276689620908005,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04171.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.016575321436201523,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 212572452",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.4302162740380741,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04035.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0023724719814317945,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00284.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9027352362921508,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07207.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0028793897061824133,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00671.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9684925881793481,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1462.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8929582693849972,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01591.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8736322341867716,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03205.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.01112624492322421,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02434.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.06023594742643334,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02169.03",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9153561093235641,
+        "column_id": "hostname"
+    },
+    {
+        "id": "2173.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.2702634280729713,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04956.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.11124827266679761,
+        "column_id": "hostname"
+    },
+    {
+        "id": "3986.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9253838270740592,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04267.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9343686274383117,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02892.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.3349446758761785,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01363.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7579681483716059,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04688.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0883938235968879,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03121.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.3683394218163663,
+        "column_id": "hostname"
+    },
+    {
+        "id": "3733.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.12968783446382914,
+        "column_id": "hostname"
+    },
+    {
+        "id": "425.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.11807781022529014,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07121.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005431563112536243,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-64",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.8916882154115705,
+        "column_id": "hostname"
+    },
+    {
+        "id": "229.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7343897464029026,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07227.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9219422111824008,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05187.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.009199739917307515,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01574.02",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.928248370240902,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06822.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.007199004367761375,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04003.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.11247121221519361,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02801.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.830318259961951,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00252.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9543051736784919,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03866.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.006026136009595784,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02435.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5830999413595661,
+        "column_id": "hostname"
+    },
+    {
+        "id": "6001.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.5902035550517853,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1712.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.16093299072402706,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02644.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.3845506967866604,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K2-228",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9872873217128488,
+        "column_id": "hostname"
+    },
+    {
+        "id": "4155.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.25101809277076914,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K01792.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.931176716751282,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1946.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0629433557941507,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07100.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0033759908047921528,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K00757.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9021224866201429,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05672.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005635210444526791,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07103.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.0033319724925849194,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1815.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.1034706056392124,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06773.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.004949496195857114,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K04841.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.1324049632838429,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06896.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.03044540187316319,
+        "column_id": "hostname"
+    },
+    {
+        "id": "1888.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.023752838359131438,
+        "column_id": "hostname"
+    },
+    {
+        "id": "EPIC 251393916",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.012170017169084864,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K02488.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.9297335538373749,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K03407.01",
+        "class": "Transit",
+        "prediction": 1,
+        "probability": 0.7961052430448715,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K05738.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.005672193982782461,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K07433.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.01012891685142979,
+        "column_id": "hostname"
+    },
+    {
+        "id": "K06556.01",
+        "class": "Transit",
+        "prediction": 0,
+        "probability": 0.003412238285349725,
+        "column_id": "hostname"
+    }
+]
