@@ -527,7 +527,7 @@ export class ExplorerComponent {
 
   downloadExample(filename: string): void {
     const link = document.createElement('a');
-    link.href = `/${filename}`;
+    link.href = filename;
     link.download = filename;
     link.target = '_blank';
 

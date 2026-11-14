@@ -13,6 +13,6 @@ export class UploadService {
     const formData = new FormData();
     formData.append('file', file, file.name);
 
-    return this.http.get('/mock.json');
+    return this.http.get('mock.json');
   }
 }

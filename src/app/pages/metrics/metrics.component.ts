@@ -17,17 +17,17 @@ export class MetricsComponent {
     {
       title: 'Confusion Matrix – Validation',
       description: 'Model performance on the validation dataset.',
-      img: '/assets/metrics/confusion_matrix_val.png',
+      img: 'assets/metrics/confusion_matrix_val.png',
     },
     {
       title: 'Confusion Matrix – Test',
       description: 'Final evaluation metrics for unseen data.',
-      img: '/assets/metrics/confusion_matrix_test.png',
+      img: 'assets/metrics/confusion_matrix_test.png',
     },
     {
       title: 'Feature Importance',
       description: 'Top contributing features influencing predictions.',
-      img: '/assets/metrics/feature_importance.png',
+      img: 'assets/metrics/feature_importance.png',
     },
   ];
 }
